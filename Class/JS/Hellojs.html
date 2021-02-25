@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello JS</title>
+</head>
+<body>
+    <h1>Hello JavaScript Example!</h1>
+    <!--I want to print "look at me! I'm Mr. Meeseeks!"-->
+    <script type="text/JavaScript">
+        for(var i = 0; i<50; i++)
+        {
+            //This is a single line comment
+
+            /*
+            This is a multiline comment
+            */
+            document.write("<br/><br/>");
+            document.write("<p>Look at me! I'm Mr. Meekeeks!<p>");
+        }
+
+        //The document object represents the HTML doc that is displayed in the window
+        //We can manipulate the document object with JavaScript
+        //Access to and the modification of document content is called DOM (Document Object Model) Manipulation
+        
+        console.log("look at this console log");
+        console.warn("pineapples do NOT go on pizza!");
+        console.error("Oh no! Something has gone wrong!");
+
+        /*
+            What is a scripting language?
+            a snippet of code taht automates some functionatlity. It is not a complete application or program
+            ..it's just a snippet of code.
+
+            What is JavaScript?
+            it is a scripting language. Traditional languages like C++ are compiled BEFORE they run into executable binary form. 
+            The compiler is our best friend because it checks for errors before the process is complete.
+
+            Scripting languages, by contrast are executed line by line by an INTERPERTER
+
+            JS is a scpriting language programming language which allows more dynamic functionality to web pages.
+            JS is interpreted by the Browser..Google Crome's interpreter is v8 engine
+            FireFox is SpiderMonkey.
+            
+            Later JS got so popular, that someone ripped out the Chrome's v8 engine and wrapped it in a C++ shell; thus Node.js was born around 2009.
+
+            Features of JS:
+                Object oriented
+                Supports functional programming
+                Loosely typed
+                    (a variable can hold ANY data type)
+                Dynamic (easily control JS during runtime)
+                    you can modify the structure of obects while the program is running MORE than in non-dynamic languages.
+                originally JS was buillt for DOM manipulation.
+                    The DOM is a virtual representation of the HTML page
+                Generally JS is either interpreted by 1 of 2 things: brower or node.js
+        */
+    </script>
+    <!--You can externally link JS files to incorperate functionality-->
+    <script text="text/JavaScript" src="Hellojs.js"></script>
+</body>
+</html>

@@ -1,49 +1,41 @@
+<!--CSS Stylesheets with Relative Paths -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthew Lee</title>
+    <title>CSS Challenge</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/Introduction.css">
 </head>
+
 <body>
-    <h1>Student Bio</h1>
-    <h2>Matthew Lee</h2>   
-    <img src="assets/images/loading-star.gif" width="200" height="200">
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus libero, semper in aliquam fringilla, euismod eu velit. 
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce rutrum urna at quam malesuada rutrum. 
-        Mauris in commodo augue, porttitor bibendum diam. Phasellus consequat non nulla in aliquam. Maecenas laoreet dapibus pretium. 
-        Vivamus ultricies fringilla augue sit amet elementum. Sed mollis nisi quis purus congue molestie. Suspendisse non lobortis urna. 
-        Proin ac quam at urna tristique accumsan. Curabitur dapibus enim ut massa imperdiet, ac aliquam lectus facilisis. 
-        Morbi tincidunt justo sem, nec facilisis sem varius id. Praesent pulvinar arcu non magna rhoncus, quis vulputate lectus venenatis. 
-        Quisque condimentum pharetra nibh, volutpat viverra tellus porta ut. Duis vulputate arcu quis suscipit scelerisque.
-        Donec in blandit elit, quis pretium felis. Nam nec dolor porta, finibus erat in, interdum tellus. Nunc non eros arcu. 
-        Curabitur euismod, magna ac interdum sagittis, quam lorem consectetur purus, vel sollicitudin mauris elit id nulla. Pellentesque vel venenatis purus. 
-        Integer aliquet at eros eu scelerisque. Maecenas scelerisque erat non vehicula egestas. Nam faucibus venenatis tortor at vulputate.
-        Vivamus consectetur faucibus interdum. Cras commodo efficitur sem, in malesuada leo semper in. Quisque sapien nisi, fringilla eu semper id, scelerisque id sapien. 
-        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur id pellentesque massa. Fusce ac urna quam. 
-        Morbi ut arcu non mauris tristique efficitur nec id purus. Praesent eu est vel mauris facilisis cursus quis venenatis justo. Mauris pretium eget metus at commodo. 
-        Duis viverra massa et nibh accumsan, nec placerat massa sodales. Maecenas aliquet mi libero, quis scelerisque libero egestas vitae. Proin mattis vulputate enim vitae posuere. 
-        Nulla nec accumsan orci. Proin ipsum sapien, facilisis in feugiat sit amet, commodo sit amet eros.
-        Maecenas quis est fringilla, fringilla odio a, pulvinar arcu. Donec aliquam sem vehicula, aliquet arcu ac, consectetur lacus. 
-        Maecenas malesuada sapien quis tellus aliquet elementum. Phasellus dignissim ipsum et risus ultricies, ac bibendum urna placerat. 
-        Nam pellentesque ipsum libero, eu rutrum lacus aliquam in. Integer placerat efficitur consequat. Aliquam volutpat arcu a diam scelerisque, sed ornare magna dignissim.
-        Etiam hendrerit metus ut cursus vulputate. Praesent viverra nisl quis porttitor viverra. Maecenas diam nunc, rhoncus vel lectus maximus, fringilla congue metus. 
-        Ut ac porta lorem. Nam eget purus eget ex euismod dignissim vitae eget velit. In tincidunt fringilla nisi nec interdum. Donec in magna metus. 
-        Suspendisse blandit justo ac nisi gravida, a dictum massa tempor.
-        Mauris porta, lorem nec varius interdum, libero quam pretium ipsum, dignissim efficitur ante sapien vel orci. 
-        Etiam hendrerit neque non fringilla malesuada. Integer pellentesque massa quis venenatis convallis. Praesent et rutrum dui, quis convallis lectus. 
-        In maximus elementum lacus, placerat pharetra ex ornare cursus. Vivamus fringilla faucibus quam tempor efficitur. Vivamus eget malesuada nulla. 
-        Phasellus pellentesque, dui at mollis vestibulum, lacus enim dapibus turpis, ac tincidunt nisi est eget leo. Praesent placerat ligula eget aliquam commodo. 
-        Pellentesque vitae tristique purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vel accumsan est, id lobortis augue. 
-        Mauris vehicula libero vulputate tortor mollis, in dictum turpis accumsan. In hac habitasse platea dictumst.
-    </p>
-    <h2>Contact Info</h2>
-    <br/>
-    <ul>
-        <li>Email: <a href="mailto: matthew.l@revature.net">matthew.l@revature.net</a></li>    
-        <li>Github: <a href="https://github.com/HTMLGitHub">HTMLGitHub</a></li>
-        <li>Portfolio: <a href="#">Coming Soon...</a></li>
-    </ul>
+    <header>
+       <h1>Student Bio</h1> 
+    </header>
+    
+    <div class="clearfix">
+        <section class="intro">
+            <h2 class="intro_name">Matthew Lee</h2>   
+            <img class="intro_star" src="assets/images/loading-star.gif">
+            <p class="intro_bio">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus libero, semper in aliquam fringilla, euismod eu velit. 
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce rutrum urna at quam malesuada rutrum. 
+                Mauris in commodo augue, porttitor bibendum diam. Phasellus consequat non nulla in aliquam. Maecenas laoreet dapibus pretium. 
+                Vivamus ultricies fringilla augue sit amet elementum. Sed mollis nisi quis purus congue molestie. Suspendisse non lobortis urna. 
+                Proin ac quam at urna tristique accumsan. Curabitur dapibus enim ut massa imperdiet, ac aliquam lectus facilisis.
+            </p>
+        </section>
+
+        <section class="contact">
+            <h2 class="contact_info">Contact Info</h2>
+            <ul class="contact_addresses">
+                <li class="contact_email">Email: <a href="mailto: matthew.l@revature.net">matthew.l@revature.net</a></li>    
+                <li class="contact_github">Github: <a href="https://github.com/HTMLGitHub">HTMLGitHub</a></li>
+                <li class="contact_portfolio">Portfolio: <a href="#">Coming Soon...</a></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

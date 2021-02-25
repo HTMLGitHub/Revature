@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction To Bootstrap</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+    <style>
+        .jumbotron
+        {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+ <!--What is bootstrap
+
+Bootstrap is a free front end framework from faster and easier web-dev. It gives us HTML and CSS based design templates.
+
+What is Bootstrap CDN
+
+is a public content delivery network. Users of Bootstrap can load CSS and JavaScript libraries remotely from a global network of servers.-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Let's include a jumbotron-->
+  <div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+  
+  
+ <div class="container">
+     <!--let's create a row of 3 columns-->
+
+     <div class="row">
+         <!--Bootstarp's framework automatically provides the formatting properties for these classes....-->
+         <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem consequuntur sequi voluptate
+                 voluptas error ipsam laborum nihil nisi porro, alias aut doloremque voluptatibus consequatur at 
+                 cum a delectus molestiae quam?
+            </p>
+            <a class="btn btn-secondary" href="https://www.example.com" target="_blank">Example.com</a>
+         </div>
+
+         <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae mollitia magnam modi quidem, porro a harum. 
+                Nesciunt eos, veritatis animi molestias distinctio qui nulla consectetur? Quod impedit reiciendis itaque necessitatibus!
+            </p>
+            <a class="btn btn-secondary" href="https://www.google.com" target="_blank">Google</a>
+         </div>
+
+         <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dicta, debitis beatae rem ea quidem quae ab dolores, 
+                ipsa molestias blanditiis dolorum necessitatibus aliquid reiciendis dolore commodi, atque pariatur nostrum!
+            </p>
+            <a class="btn btn-secondary" href="https://github.com/HTMLGitHub/Revature" target="_blank">HTMLGitHub/Revature</a>
+         </div>
+     </div>
+ </div>
+    <footer class="container">
+        <p>Company 2017 - 2021&copy;</p>
+    </footer>
+</body>
+</html>

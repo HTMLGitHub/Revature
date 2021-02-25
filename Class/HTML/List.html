@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basis: Lists</title>
+</head>
+<body>
+    <!--
+        HTML Lists
+        There are 3 different types of lists to choose from in HTML
+        
+        -   Ordered List
+            +   lists where each item <li> is numbered
+                + 1, 2, 3
+                + A, B, C
+                + I, II, III
+                + i, ii, iii
+
+        -   Unordered List
+            +   lists where each item <li> has some bullet points
+
+        -   Definition List
+            +   lists made up of terms <dt> and their definitions <dd>
+    -->
+
+    <div>
+        <h1>Homemade Hemp Milk</h1>
+        
+        <h2>Ingredientes</h2>
+
+        <ul style="list-style-type: square;">
+            <li>1/4 cup Raw Unshelled Hemp Seeds</li>
+            <li>4 cups Water</li>
+            <li style="list-style-type:upper-roman;">1/4 tsp of sea salt</li>
+            <li style="list-style-type: upper-alpha;">1-2 maple syrup</li>
+        </ul>
+
+        <hr/>
+        <h2>Directions</h2>
+        
+        <ol type="i">
+            <li>Add all ingredientes to a high speed blender</li>
+            <li>Blend on high for about 1-2 minutes</li>
+            <li>Store in fridge for up to 5 days
+                <i><blockquote>
+                    If you let it sit for more than 5 days, <strong>it will go <strong>bad</strong></strong>
+                </blockquote></i>
+            </li>
+        </ol>
+
+        <hr>
+
+        <dl>
+            <dt>Ordered List</dt>
+            <dd>A list where each item is numbered.</dd>
+            <dt>Unordered List</dt>
+            <dd>A list where each item has a bullet point.</dd>
+            <dt>Definition List</dt>
+            <dd>A list made up of set terms along with their definitions.</dd>
+        </dl>
+
+        <ol type=1 reversed start = 10>
+            <li>Thing1</li>
+            <li>Thing2</li>
+            <li>Thing3</li>
+        </ol>
+    </div>
+</body>
+</html>

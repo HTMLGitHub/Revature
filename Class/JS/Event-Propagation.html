@@ -1,0 +1,64 @@
+<!--
+    Event propagation: describes what will happen in the event fo more than one EVENT LISTENER being triggered at the same time
+
+    2 diff types:
+        1. capturing: on the way down from root (Window) element to the target (outermost to innermost)
+        2. bubbling: on the way up from root element which is hte default
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propagation</title>
+</head>
+<body id="theBody" class="item">
+    <div id="one_a" class="item">
+        <div id="two" class="item">
+            <div id="three_a" class="item">
+                <button id="buttonOne" class="item">One</button>
+            </div> 
+            <div id="three_b" class="item">
+                <button id="buttonTwo" class="item">Two</button>
+                <button id="buttonThree" class="item">Three</button>
+            </div> 
+        </div>
+    </div>
+    <div id="one_b" class="item">
+
+    </div>
+    <script>
+        //We will put our event listener script in here
+        //1. put all items (node elements from our DOM) into an arry called 'items'
+        var items = document.querySelectorAll(".item");
+
+        //try getElementsByClassName -- this can work too
+
+
+        //2. create a for loop and iterate over our list of elements
+        for(let i=0; i<items.length; i++)
+        {
+            //3. capture the element retrieved
+            var el = items[i];
+
+            //4. add eventListener to the element captured
+            el.addEventListener("click", doSomething, true); 
+            el.addEventListener("click", doSomething, false);
+            /*
+                the 3rd argument means, 'do we want to listen to the event in the capturing phase (true)
+                                                                        or just the bubbling phase (false)'
+
+                IF we don't fill in the 3rd param (aka set it to false -- it's the default value), BUBBLING will be the phase that we listen for
+            */
+        }
+
+        function doSomething(e)
+        {
+            console.log(e.currentTarget.id);
+            //this is how we extract its ID
+        }
+
+    </script>
+</body>
+</html>
