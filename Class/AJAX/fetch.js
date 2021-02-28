@@ -24,7 +24,7 @@ function getPokemon()
     //the fetch() method returns a promise
     //a promise is an object that produces a single value at some time in the future.
 
-    //the beauty of promises is that it allows us to porocess them an do cool things like use the then()
+    //the beauty of promises is that it allows us to process them an do cool things like use the then()
     //or handle errors
     fetch(`https://pokeapi.co/api/v2/pokemon/${number}`)
 
