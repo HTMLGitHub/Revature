@@ -57,3 +57,5 @@ console.log(arr);
 
 a = "ten thousand";
 console.log(a);
+
+console.log(5=="5");
