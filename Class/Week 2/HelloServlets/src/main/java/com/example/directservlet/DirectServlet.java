@@ -21,7 +21,7 @@ public class DirectServlet extends HttpServlet
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	private Logger log = Logger.getLogger(DirectServlet.class);
+	private static Logger log = Logger.getLogger(DirectServlet.class);
 	
 	/*
 	 * 3 steps to create a servlet:
@@ -49,6 +49,7 @@ public class DirectServlet extends HttpServlet
 		log.info("We're inside the directServlet 'doGet()' method");
 	}
 	
+	//we hit this method with a POST request from POSTMAN at "http://localhost
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException
 	{

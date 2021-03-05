@@ -4,16 +4,44 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
-  <!--the web.xml or Deployment Descriptor defines the mappings between servlets. 
-  The web server uses the configuration details to identify particular servlets.-->
+  
   
   <servlet>
-  <servlet-name>DirServ</servlet-name>
-  <servlet-class>com.example.directservlet.DirectServlet</servlet-class>
+    <servlet-name>DirServ</servlet-name>
+    <servlet-class>com.example.directservlet.DirectServlet</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-  	<servlet-name>DirServ</servlet-name>
-  	<url-pattern>/dirserv</url-pattern> <!-- https://localhost::8080/HelloServlets/dirserv -->
+    <servlet-name>DirServ</servlet-name>
+    <url-pattern>/dirserv</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>IndirectServlet</servlet-name>
+    <servlet-class>com.example.indirectServlet.IndirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndirectServlet</servlet-name>
+    <url-pattern>/IndirectServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>SessionServlet</servlet-name>
+    <servlet-class>com.example.sessionservlet.SessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionServlet</servlet-name>
+    <url-pattern>/sesserv</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>HelperSessionServlet</servlet-name>
+    <servlet-class>com.example.sessionservlet.HelperSessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelperSessionServlet</servlet-name>
+    <url-pattern>/helpersesserv</url-pattern>
   </servlet-mapping>
 </web-app>

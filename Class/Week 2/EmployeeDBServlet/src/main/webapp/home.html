@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+     <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+	integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+	crossorigin="anonymous">
+</head>
+<body>
+   <div class="jumbotron">
+   		<h1 id="welcome">You are logged in!</h1>
+   		<a class="btn btn success" onclick="logout()">Logout</a>
+   </div>
+   <script>
+   //capture  teh welcome element and modify it so that it says 'Welcome, *username*
+   let welcome = document.getElementById('welcome');
+   
+   //capture teh userString by accessing the session...
+   let userString = sessionStorage.getItem('currentUser');
+   
+   //set up some logic...
+   //IF the user is null...redirect them to the index.html page ("")
+   if(userString === null)
+    {
+        window.location = "http://localhost:8080/EmployeeDBServlet/";
+    }
+    else
+    {
+        let currentUser = JSON.parse(userString);
+
+        console.log(currentUser);
+
+        if(currentUser!=null)
+        {
+            welcome.innerHTML = "Welcome, " + currentUser.firstName + " " + currentUser.lastName;
+        }
+    }
+   
+   
+   //otherwise...
+   //we parse the user string, and set the textContent of welcome to 'Welcome, *currentUser.something'
+   function logout()
+   {
+        let xhr = new XMLHttpRequest();
+        xhr.open("POST", "http://localhost:8080/EmployeeDBServlet/logout");
+        xhr.send();
+        sessionStorage.removeItem('currentUser');
+        window.location = "http://localhost:8080/EmployeeDBServlet/";
+   }
+   </script>
+</body>
+</html>

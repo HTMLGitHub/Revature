@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>HelloConfigContext</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!--Here, I am definind the Servlet Context Parameter. This is a global object
+  that is shared amonst all SERVLETS! 
+  
+  Typically we use this to share some initial parameters or configureation info across the whole application
+  -->
+  
+  <context-param>
+  	<param-name>contextExample</param-name>
+  	<param-value>Global Pizza Chains</param-value>
+  </context-param>
+  
+  <servlet>
+    <servlet-name>FirstServ</servlet-name>
+    <servlet-class>com.revature.servlet.FirstServ</servlet-class>
+    <!-- ServletConfig is an obj containing initial params or confir information
+    createed by teh servlet container and passed to this particular servlet during initialization. -->
+    <init-param>
+    	<param-name>configExample</param-name>
+    	<param-value>Local Pizza Chains</param-value>
+    </init-param>
+    <!--When the server starts, any servlet with a load-on-startup element with a value of >=0 will be initialized first (init() method is called)
+    order is: 0 first then 1, then 2...etc.
+    Techincally preinitialized servlets respond faster when a request is made 
+     this is because they don't have to run the init() method before the doGet()/doPost method
+    the server IS going to take longer to start up because it has to take extra time to initialize these servlets-->
+     
+    <load-on-startup>0</load-on-startup> <!-- negitive number means lazy loading (default value) -->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServ</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SecondServ</servlet-name>
+    <servlet-class>com.revature.servlet.SecondServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondServ</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+</web-app>

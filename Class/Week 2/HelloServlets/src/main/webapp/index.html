@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css"/>
+</head>
+<body>
+	<div class="supervillain-container">
+		<h1>Welcome to the Supervillain Servlets</h1>
+		
+		<!-- Notice I do no use a slash (/) in the action when I am
+		specifying that I want to contact that particualr sevlet -->
+		<form method="GET" action="dirserv">
+			<p>Direct Servlet, GET!</p>
+			<input type="submit" value="Direct text Response"></input>
+		</form>
+		
+		<form method="POST" action="dirserv">
+			<p>Direct Servlet, POST!</p>
+			<input type="submit" value="Direct JSON Response"></input>
+		</form>
+		
+		<!-- 1 Form to hit the doGet() METHOD in the indirect servlet  -->
+		
+		<form method="GET" action="IndirectServlet">
+			<p>Indirect Servlet, GET!</p>
+			<input type="submit" value="Redirect text Response"></input>
+		</form>
+		
+		<!-- 1 Form to hit the doPost()Method -->
+		<form method="POST" action="IndirectServlet">
+			<p>Indirect Servlet, POST!</p>
+			<input type="submit" value="Forward Response"></input>
+		</form>
+		
+		<!-- 3 more forms hitting our session servlets that are soon to be made -->
+		<form method="GET" action="sesserv" >
+			<p>Session Servlet, GET!</p>
+			<input type="submit" value="Push Mud Man to Session"></input>
+		</form>
+
+		<form method="POST" action="sesserv" >
+			<p>Session Servlet, POST!</p>
+			<input type="text" name="name" placeholder="Enter an EVIL name"></input><br/>
+			<input type="text" name="superpower" placeholder="Enter an EVIL superpower"></input><br/>
+			<input type="number" name="bounty" placeholder="Enter an EVIL bounty ($)"></input><br/>
+
+			<!--This is the button below-->
+			<input type="submit" value="Push a new custom villain to session"></input>
+		</form>
+		
+		<form method="GET" action="helpersesserv" >
+			<p>Helper Session Servlet, GET!</p>
+
+			<!--This is the button below-->
+			<input type="submit" value="Obtain the Villain from the session"></input>
+		</form>
+	</div>
+	
+</body>
+</html>

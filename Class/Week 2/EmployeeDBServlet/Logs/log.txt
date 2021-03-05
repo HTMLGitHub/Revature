@@ -1,0 +1,102 @@
+2021-03-04 11:00:04 WARN  EmployeeDAOImpl:41 - Unable to insert user
+org.postgresql.util.PSQLException: ERROR: column "first_name" of relation "employee" does not exist
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at com.revature.repositories.EmployeeDAOImpl.insert(EmployeeDAOImpl.java:37)
+	at com.revature.services.EmployeeService.insert(EmployeeService.java:15)
+	at com.revature.util.connectionUtil.main(connectionUtil.java:73)
+2021-03-04 11:01:50 INFO  Connection:53 - connection successful
+2021-03-04 11:01:50 INFO  Connection:65 - Connected to DB
+2021-03-04 11:01:50 WARN  EmployeeDAOImpl:41 - Unable to insert user
+org.postgresql.util.PSQLException: ERROR: column "first_name" of relation "employee" does not exist
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at com.revature.repositories.EmployeeDAOImpl.insert(EmployeeDAOImpl.java:37)
+	at com.revature.services.EmployeeService.insert(EmployeeService.java:15)
+	at com.revature.util.connectionUtil.main(connectionUtil.java:75)
+2021-03-04 17:56:32 INFO  Connection:53 - connection successful
+2021-03-04 17:56:32 INFO  Connection:65 - Connected to DB
+2021-03-04 17:56:32 WARN  EmployeeDAOImpl:41 - Unable to insert user
+org.postgresql.util.PSQLException: ERROR: column "first_name" of relation "employee" does not exist
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at com.revature.repositories.EmployeeDAOImpl.insert(EmployeeDAOImpl.java:37)
+	at com.revature.services.EmployeeService.insert(EmployeeService.java:15)
+	at com.revature.util.connectionUtil.main(connectionUtil.java:75)
+2021-03-04 17:57:52 INFO  Connection:53 - connection successful
+2021-03-04 17:57:52 INFO  Connection:65 - Connected to DB
+2021-03-04 17:57:52 WARN  EmployeeDAOImpl:41 - Unable to insert user
+org.postgresql.util.PSQLException: ERROR: column "first_name" of relation "employee" does not exist
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at com.revature.repositories.EmployeeDAOImpl.insert(EmployeeDAOImpl.java:37)
+	at com.revature.services.EmployeeService.insert(EmployeeService.java:15)
+	at com.revature.util.connectionUtil.main(connectionUtil.java:75)
+2021-03-04 17:59:43 INFO  Connection:53 - connection successful
+2021-03-04 17:59:43 INFO  Connection:65 - Connected to DB
+2021-03-04 17:59:43 WARN  EmployeeDAOImpl:41 - Unable to insert user
+org.postgresql.util.PSQLException: ERROR: column "first_name" of relation "employee" does not exist
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at com.revature.repositories.EmployeeDAOImpl.insert(EmployeeDAOImpl.java:37)
+	at com.revature.services.EmployeeService.insert(EmployeeService.java:15)
+	at com.revature.util.connectionUtil.main(connectionUtil.java:75)
+2021-03-04 18:00:52 INFO  Connection:53 - connection successful
+2021-03-04 18:00:52 INFO  Connection:65 - Connected to DB
+2021-03-04 18:00:52 WARN  EmployeeDAOImpl:41 - Unable to insert user
+org.postgresql.util.PSQLException: ERROR: column "first_name" of relation "employee" does not exist
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at com.revature.repositories.EmployeeDAOImpl.insert(EmployeeDAOImpl.java:37)
+	at com.revature.services.EmployeeService.insert(EmployeeService.java:15)
+	at com.revature.util.connectionUtil.main(connectionUtil.java:75)
+2021-03-04 18:02:46 INFO  Connection:53 - connection successful
+2021-03-04 18:02:46 INFO  Connection:65 - Connected to DB
+2021-03-04 18:04:29 INFO  Connection:53 - connection successful
+2021-03-04 18:04:29 INFO  Connection:65 - Connected to DB
+2021-03-04 18:21:41 INFO  Connection:53 - connection successful
+2021-03-04 18:21:41 INFO  Connection:65 - Connected to DB
+2021-03-04 18:23:44 INFO  Connection:53 - connection successful
+2021-03-04 18:23:44 INFO  Connection:65 - Connected to DB
+2021-03-04 18:24:55 INFO  Connection:53 - connection successful
+2021-03-04 18:24:55 INFO  Connection:65 - Connected to DB
+2021-03-04 18:25:34 WARN  EmployeeDAOImpl:36 - Unable to insert user
+2021-03-05 09:42:31 INFO  Connection:53 - connection successful
+2021-03-05 09:42:31 INFO  Connection:65 - Connected to DB
+2021-03-05 09:42:39 WARN  EmployeeDAOImpl:36 - Unable to insert user

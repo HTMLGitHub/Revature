@@ -1,0 +1,29 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Binary Calculator</title>
+        <link rel="stylesheet" href="css/BinaryCalculator.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="res"></div>
+                <div class="buttonContainer" id="btns">
+                    <div class="buttonContainer"> <!--Row 1-->
+                        <button onClick="adding0Function()" id="btn0">0</button>
+                        <button onClick="adding1Function()" id="btn1">1</button>
+                        <button onClick="clearFunction()" id="Clr">C</button>
+                        <button onClick="equalFunction()" id="Eql">=</button>
+                    </div>
+                    <div class="buttonContainer"> <!--Row 2-->
+                        <button onClick="additionFunction()" d="Sum">+</button>
+                        <button onClick="subtractionFunction()" id="Sub">-</button>
+                        <button onClick="multiplicationFunction()" id="Mil">*</button>
+                        <button onClick="divisionFunction()" id="Div">/</button>
+                    </div>
+                </div>
+        </div>
+        <script src="js/BinaryCalculator.js"></script>
+    </body>
+</html>
