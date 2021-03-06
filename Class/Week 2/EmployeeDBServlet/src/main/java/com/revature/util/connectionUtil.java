@@ -65,14 +65,4 @@ public class connectionUtil
 		log.info("Connected to DB");
 		return conn;
 	}
-	
-	public static void main(String[] args)
-	{
-		//1. create employee
-		Employee e = new Employee("Testy", "McTestFace", "test123", "pt");
-		
-		//call insert from employeeService
-		EmployeeService.insert(e);
-				
-	}
 }

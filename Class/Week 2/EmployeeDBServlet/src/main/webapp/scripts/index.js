@@ -5,15 +5,12 @@ function sendLogin()
     let uName = document.getElementById("uName").value; 
     let pWord = document.getElementById("pWord").value;
 
-    console.log(`UserName: ${uName}`); 
-    console.log(`Password: ${pWord}`);
-
     //builiding an obj literal with the user credentials
     let loginTemplate = 
     {
         username: uName,
         password: pWord
-    }
+    };
 
     //begin some AJAX workflow...
 
@@ -23,28 +20,28 @@ function sendLogin()
     //2. xhr.onreadystatechange
     xhr.onreadystatechange = function()
     {
-        if(this.readyState === 4 && this.status === 200)
+        if(this.readyState == 4 && this.status == 200)
         {
             console.log("success");
-            sessionStorage.setItem('currentUser', this.responseText)
+            sessionStorage.setItem('currentUser', this.responseText);
 
             window.location = "http://localhost:8080/EmployeeDBServlet/home.html";
 
             console.log(sessionStorage.getItem('currentUser'));
         }
 
-        if(this.readyState === 4 && this.status === 204) // 204 means NO CONTENT FOUND (but connection was made)
+        if(this.readyState == 4 && this.status == 204) // 204 means NO CONTENT FOUND (but connection was made)
         {
-            console.log("filed to find user");
+            console.log("Failed to find user");
 
             let childDiv = document.getElementById('warningText');
-            childDiv.textContent = "Failed to login! Username or Password is incorrect"
+            childDiv.textContent = "Failed to login! Username and/or Password is incorrect";
         }
-    }
+    };
 
     //3. xhr.open("POST", "http:/localhost")
-    xhr.open("POST", "http://localhost:8080/EmployeeDBServlet/login")
+    xhr.open("POST", "http://localhost:8080/EmployeeDBServlet/login");
 
     //4. xhr.send();
-    xhr.send(JSON.stringify(loginTemplate))
+    xhr.send(JSON.stringify(loginTemplate));
 }

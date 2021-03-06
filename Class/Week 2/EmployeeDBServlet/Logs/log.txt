@@ -100,3 +100,20 @@ org.postgresql.util.PSQLException: ERROR: column "first_name" of relation "emplo
 2021-03-05 09:42:31 INFO  Connection:53 - connection successful
 2021-03-05 09:42:31 INFO  Connection:65 - Connected to DB
 2021-03-05 09:42:39 WARN  EmployeeDAOImpl:36 - Unable to insert user
+2021-03-05 11:00:05 INFO  Connection:53 - connection successful
+2021-03-05 11:00:05 INFO  Connection:65 - Connected to DB
+2021-03-05 11:03:31 INFO  Connection:53 - connection successful
+2021-03-05 11:03:33 INFO  Connection:65 - Connected to DB
+2021-03-05 11:10:24 INFO  Connection:53 - connection successful
+2021-03-05 11:10:24 INFO  Connection:65 - Connected to DB
+2021-03-05 11:19:53 INFO  Connection:53 - connection successful
+2021-03-05 11:19:53 INFO  Connection:65 - Connected to DB
+2021-03-05 11:22:33 INFO  Connection:53 - connection successful
+2021-03-05 11:22:33 INFO  Connection:65 - Connected to DB
+2021-03-05 11:25:30 INFO  Connection:53 - connection successful
+2021-03-05 11:25:30 INFO  Connection:65 - Connected to DB
+2021-03-05 11:32:04 INFO  Connection:53 - connection successful
+2021-03-05 11:32:04 INFO  Connection:65 - Connected to DB
+2021-03-05 11:32:05 INFO  Connection:53 - connection successful
+2021-03-05 11:32:05 INFO  Connection:65 - Connected to DB
+2021-03-05 11:32:05 INFO  Connection:67 - Timmy Maximoff has logged in.

@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -25,6 +26,7 @@ public class RequestHelper
 	
 	public static void processLogin(HttpServletRequest req, HttpServletResponse response) throws IOException
 	{
+		//WE want to return whatever we receive as the reques (req) into a string to process
 		BufferedReader reader = req.getReader();
 		StringBuilder s = new StringBuilder();
 		
@@ -70,7 +72,6 @@ public class RequestHelper
 		{
 			response.setStatus(204); // this means that we still have a connection, but no user was found
 		}
-		
 	}
 	
 	public static void processLogout(HttpServletRequest req, HttpServletResponse response) throws IOException
@@ -92,16 +93,31 @@ public class RequestHelper
 	public static void processEmployee(HttpServletRequest req, HttpServletResponse response) throws IOException
 	{
 		//1. Set the content type to app/json because we will be sending json back to the client,
-				//stuck alongside the response
-				
-				response.setContentType("application/json");
-				//2. GEt a list of all Employees in the DB
-				List<Employee> allEmps = EmployeeService.findAll();
-				
-				//3. turn the list of java Objs into json string
-				String json = om.writeValueAsString(allEmps);
-				
-				PrintWriter pw = response.getWriter();
-				pw.println(json);
+		//stuck alongside the response
+		
+		response.setContentType("application/json");
+		//2. GEt a list of all Employees in the DB
+		List<Employee> allEmps = EmployeeService.findAll();
+		
+		//3. turn the list of java Objs into json string
+		String json = om.writeValueAsString(allEmps);
+		
+		PrintWriter pw = response.getWriter();
+		pw.println(json);
+	}
+
+	public static void processError(HttpServletRequest request, HttpServletResponse response) 
+	{
+		//I will add some custom funtionality to redirect teh user to an error page!
+   		try 
+   		{
+			//we do not create a new request
+   			//we also maintian the url
+   			request.getRequestDispatcher("error.html").forward(request, response);
+		} 
+   		catch (ServletException | IOException e) 
+   		{
+			e.printStackTrace();
+		}
 	}
 }

@@ -4,30 +4,8 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
- 
- <!-- <servlet>
-    <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>com.revature.web.LoginServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>LoginServlet</servlet-name>
-    <url-pattern>/login</url-pattern>
-  </servlet-mapping>-->
   
-  <!-- Logout Servelet -->
-  <!-- 
   <servlet>
-    <servlet-name>LogoutServlet</servlet-name>
-    <servlet-class>com.revature.web.LogoutServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>LogoutServlet</servlet-name>
-    <url-pattern>/logout</url-pattern>
-  </servlet-mapping>-->
-    
-  
-  <!-- Front Controller -->
-    <servlet>
     <servlet-name>FrontController</servlet-name>
     <servlet-class>com.revature.web.FrontController</servlet-class>
   </servlet>
@@ -36,7 +14,11 @@
     <url-pattern>/login</url-pattern>
     <url-pattern>/logout</url-pattern>
     <url-pattern>/employee</url-pattern>
+    <url-pattern>/error</url-pattern>
   </servlet-mapping>
-
-
+  
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/error</location>
+  </error-page>
 </web-app>

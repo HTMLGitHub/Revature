@@ -73,12 +73,12 @@ public class EmployeeDAOImpl implements EmployeeDAO
 			while(rs.next())
 			{
 				int id = rs.getInt("id");
-				String first_name = rs.getString("first_name");
-				String last_name = rs.getString("last_name");
-				String user_name = rs.getString("user_name");
+				String firstname = rs.getString("firstname");
+				String lastname = rs.getString("lastname");
+				String username = rs.getString("username");
 				String password = rs.getString("password");
 				
-				Employee e = new Employee(id, first_name, last_name, user_name, password);
+				Employee e = new Employee(id, firstname, lastname, username, password);
 				list.add(e);
 			}
 			

@@ -1,6 +1,9 @@
 package com.revature.services;
 
+import java.sql.Connection;
 import java.util.List;
+
+import org.apache.log4j.Logger;
 
 import com.revature.models.Employee;
 import com.revature.repositories.EmployeeDAO;
@@ -9,6 +12,7 @@ import com.revature.repositories.EmployeeDAOImpl;
 public class EmployeeService
 {
 	public static EmployeeDAO eDao = new EmployeeDAOImpl();
+	private static Logger log = Logger.getLogger(Connection.class);
 	
 	public static boolean insert(Employee e)
 	{
@@ -40,9 +44,9 @@ public class EmployeeService
 	}
 	
 	//confirm login method
-	public static Employee confirmLogin(String user_name, String password)
+	public static Employee confirmLogin(String username, String password)
 	{
-		Employee e = findByUserName(user_name);
+		Employee e = findByUserName(username);
 		if(e==null) return null;
 		
 		if(e.getPassword().equals(password))

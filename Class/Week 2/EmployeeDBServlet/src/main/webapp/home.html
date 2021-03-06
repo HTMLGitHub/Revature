@@ -11,15 +11,17 @@
 	crossorigin="anonymous">
 </head>
 <body>
+
    <div class="jumbotron">
    		<h1 id="welcome">You are logged in!</h1>
    		<a class="btn btn success" onclick="logout()">Logout</a>
    </div>
+
    <script>
-   //capture  teh welcome element and modify it so that it says 'Welcome, *username*
+   //capture the welcome element and modify it so that it says 'Welcome, *username*
    let welcome = document.getElementById('welcome');
    
-   //capture teh userString by accessing the session...
+   //capture the userString by accessing the session...
    let userString = sessionStorage.getItem('currentUser');
    
    //set up some logic...
@@ -30,6 +32,7 @@
     }
     else
     {
+        //parse the data we set equal to that attribute
         let currentUser = JSON.parse(userString);
 
         console.log(currentUser);
@@ -48,6 +51,7 @@
         let xhr = new XMLHttpRequest();
         xhr.open("POST", "http://localhost:8080/EmployeeDBServlet/logout");
         xhr.send();
+        
         sessionStorage.removeItem('currentUser');
         window.location = "http://localhost:8080/EmployeeDBServlet/";
    }
