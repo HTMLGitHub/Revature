@@ -1,9 +1,6 @@
 package com.revature.services;
 
 import java.sql.Connection;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -17,39 +14,7 @@ public class EmployeeService
 	public static EmployeeDAO eDao = new EmployeeDAOImpl();
 	private static Logger log = Logger.getLogger(Connection.class);
 	
-	public static void main(String[] args) 
-	{
-		Employee Ashli = new Employee(	"Ashli", 		"Lee", 		"Ash", 			"pw1", 		2);
-		Employee Krystal = new Employee("Krystal",		"Lee", 		"Coco", 		"pw2", 		2);
-		Employee Bridget = new Employee("Bridget", 		"Lee", 		"Bridge", 		"pw3", 		2);
-		Employee Rileigh = new Employee("Rileigh", 		"Lee", 		"Rye", 			"pw4", 		2);
-		Employee Emelia = new Employee(	"Emelia", 		"Lee", 		"Emmy", 		"pw5", 		2);
-		Employee WOW = new Employee(	"Wade", 		"Watts", 	"WOW", 			"Parzival",	1);
-		Employee Ken = new Employee(	"Ken", 			"Adams", 	"Joey", 		"Kenny",	1);
-		Employee Wade = new Employee(	"Wade", 		"Wilson", 	"Deadpool", 	"Dead1",	1);
-		Employee James = new Employee(	"James", 		"Howlett",	"Wolverene",	"Logan",	1);
-		
-		List<Employee> employees = new ArrayList<Employee>();
-		employees.add(Ashli);
-		employees.add(Krystal);
-		employees.add(Bridget);
-		employees.add(Rileigh);
-		employees.add(Emelia);
-		employees.add(WOW);
-		employees.add(Ken);
-		employees.add(Wade);
-		employees.add(James);
-		
-		List<Boolean> done = new ArrayList<Boolean>(Arrays.asList(new Boolean[9]));
-		Collections.fill(done, Boolean.FALSE);
-		
-		for(int i = 0; i < employees.size(); i++)
-		{
-			done[i] = 
-		}
-		
-	}
-	
+
 	public static boolean insert(Employee e)
 	{
 		return eDao.insert(e);
