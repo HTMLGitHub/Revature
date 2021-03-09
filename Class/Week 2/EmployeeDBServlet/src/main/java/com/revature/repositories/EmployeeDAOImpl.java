@@ -23,19 +23,14 @@ public class EmployeeDAOImpl implements EmployeeDAO
 		
 		try(Connection conn = connectionUtil.getConnection())
 		{
-			String sql = "INSERT INTO employee (firstname, lastname, username, password) VALUES (?, ?, ?, ?);";
+			String sql = "INSERT INTO user_info (firstname, lastname, username, password, position) VALUES (?, ?, ?, ?, ?);";
 			
 			stmt = conn.prepareStatement(sql);
 			stmt.setString(1, e.getFirstName());
 			stmt.setString(2, e.getLastName());
 			stmt.setString(3, e.getUserName());
 			stmt.setString(4, e.getPassword());
-			
-			if(!stmt.execute()) 
-			{
-				log.warn("Unable to insert user");
-				return false;
-			}
+			stmt.setInt(5, e.getPosition());
 			
 		}catch(SQLException ex)
 		{
@@ -77,8 +72,9 @@ public class EmployeeDAOImpl implements EmployeeDAO
 				String lastname = rs.getString("lastname");
 				String username = rs.getString("username");
 				String password = rs.getString("password");
+				int position = rs.getInt("position");
 				
-				Employee e = new Employee(id, firstname, lastname, username, password);
+				Employee e = new Employee(id, firstname, lastname, username, password, position);
 				list.add(e);
 			}
 			

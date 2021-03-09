@@ -7,30 +7,27 @@ public class Employee
 	private String lastName;
 	private String userName;
 	private String password;
+	private int position;
 	
 	public Employee() {}
-	
-	public Employee(String firstName, String lastName, String userName, String password) {
-		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.userName = userName;
-		this.password = password;
-	}
-	
-	public Employee(int id, String firstName, String lastName, String userName, String password) {
+
+	public Employee(int id, String firstName, String lastName, String userName, String password, int position) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.userName = userName;
 		this.password = password;
+		this.position = position;
 	}
 	
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", userName=" + userName
-				+ ", password=" + password + "]";
+	public Employee(String firstName, String lastName, String userName, String password, int position) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.userName = userName;
+		this.password = password;
+		this.position = position;
 	}
 
 	public int getId() {
@@ -73,6 +70,20 @@ public class Employee
 		this.password = password;
 	}
 
+	public int getPosition() {
+		return position;
+	}
+
+	public void setPosition(int position) {
+		this.position = position;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", userName=" + userName
+				+ ", password=" + password + ", position=" + position + "]";
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -81,43 +92,46 @@ public class Employee
 		result = prime * result + id;
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + position;
 		result = prime * result + ((userName == null) ? 0 : userName.hashCode());
 		return result;
 	}
 
 	@Override
-	public boolean equals(Object obj) 
-	{
-		if (this == obj) return true;
-		if (obj == null) return false;
-		if (getClass() != obj.getClass()) return false;
-		
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
 		Employee other = (Employee) obj;
-		if (firstName == null) 
-		{
-			if (other.firstName != null) return false;
-		}
-		else if (!firstName.equals(other.firstName)) return false;
-		
-		if (id != other.id) return false;
-		if (lastName == null)
-		{
-			if (other.lastName != null) return false;
-		}
-		else if (!lastName.equals(other.lastName)) return false;
-		
-		if (password == null)
-		{
-			if (other.password != null) return false;
-		}
-		else if (!password.equals(other.password)) return false;
-		
-		if (userName == null)
-		{
-			if (other.userName != null) return false;
-		}
-		else if (!userName.equals(other.userName)) return false;
-		
+		if (firstName == null) {
+			if (other.firstName != null)
+				return false;
+		} else if (!firstName.equals(other.firstName))
+			return false;
+		if (id != other.id)
+			return false;
+		if (lastName == null) {
+			if (other.lastName != null)
+				return false;
+		} else if (!lastName.equals(other.lastName))
+			return false;
+		if (password == null) {
+			if (other.password != null)
+				return false;
+		} else if (!password.equals(other.password))
+			return false;
+		if (position != other.position)
+			return false;
+		if (userName == null) {
+			if (other.userName != null)
+				return false;
+		} else if (!userName.equals(other.userName))
+			return false;
 		return true;
-	}	
+	}
+	
 }
+	

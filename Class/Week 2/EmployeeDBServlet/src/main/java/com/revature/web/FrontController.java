@@ -44,7 +44,23 @@ public class FrontController extends HttpServlet {
    	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		
+		//we will rewrite the URL's 
+   		final String URI = request.getRequestURI().replace("/EmployeeDBServlet/", "");
+   		
+   		switch(URI)
+   		{
+   		case "login":
+   			RequestHelper.processLogin(request, response);
+   			break;
+   		case "logout":
+   			RequestHelper.processLogout(request, response);
+   			break;
+   		case "employees":
+   			RequestHelper.processEmployee(request, response);
+   			break;
+   		case "error":
+   			RequestHelper.processError(request, response);
+   			break;
+   		}
 	}
-
 }
