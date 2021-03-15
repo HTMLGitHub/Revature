@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <cache name="com.revature.models.SuperVillain"
+    maxElementsInMemory="50"
+    eternal="true"
+    overflowToDisk="false"
+    timeToIdleSeconds="600"
+    timeToLiveSeconds="600"
+    diskPersistent="false"
+    memoryStoreEvictionPolicy="LRU" />

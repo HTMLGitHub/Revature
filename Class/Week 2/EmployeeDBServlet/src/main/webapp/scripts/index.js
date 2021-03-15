@@ -25,7 +25,19 @@ function sendLogin()
             console.log("success");
             sessionStorage.setItem('currentUser', this.responseText);
 
-            window.location = "http://localhost:8080/EmployeeDBServlet/home.html";
+            let xhrGet = new XMLHttpRequest();
+            xhrGet.open("Get", "http://localhost:8080/EmployeeDBServlet/login");
+            xhrGet.onreadystatechange = function()
+            {
+                if(this.readyState===4 && this.status===200)
+                {
+                    console.log("Getting");
+                    sessionStorage.setItem('currentState', this.responseText);
+
+                    console.log(sessionStorage.getItem('currentState'));
+                }
+            }
+            //window.location = "http://localhost:8080/EmployeeDBServlet/home.html";
 
             console.log(sessionStorage.getItem('currentUser'));
         }

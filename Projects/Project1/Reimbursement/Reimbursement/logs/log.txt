@@ -1,0 +1,1091 @@
+2021-03-12 14:40:57 INFO  Connection:88 - Finding all Users
+2021-03-12 14:40:57 INFO  Connection:32 - Finding All Employees...
+2021-03-12 14:40:58 INFO  Connection:50 - connection successful
+2021-03-12 14:40:58 INFO  Connection:62 - Connected to DB
+2021-03-12 14:40:58 INFO  Connection:94 - Finding all employees
+2021-03-12 14:45:33 INFO  Connection:32 - Finding All Employees...
+2021-03-12 14:45:33 INFO  Connection:50 - connection successful
+2021-03-12 14:45:33 INFO  Connection:62 - Connected to DB
+2021-03-12 14:46:35 INFO  Connection:88 - Finding all Users
+2021-03-12 14:46:35 INFO  Connection:32 - Finding All Employees...
+2021-03-12 14:46:35 INFO  Connection:50 - connection successful
+2021-03-12 14:46:35 INFO  Connection:62 - Connected to DB
+2021-03-12 14:46:36 INFO  Connection:94 - Finding all employees
+2021-03-12 14:47:35 INFO  Connection:88 - Finding all Users
+2021-03-12 14:47:35 INFO  Connection:32 - Finding All Employees...
+2021-03-12 14:47:44 INFO  Connection:50 - connection successful
+2021-03-12 14:47:44 INFO  Connection:62 - Connected to DB
+2021-03-12 14:48:29 INFO  Connection:94 - Finding all employees
+2021-03-12 14:53:44 INFO  Connection:89 - Finding all Users
+2021-03-12 14:53:44 INFO  Connection:33 - Finding All Employees...
+2021-03-12 14:53:45 INFO  Connection:50 - connection successful
+2021-03-12 14:53:45 INFO  Connection:62 - Connected to DB
+2021-03-12 14:53:45 INFO  Connection:96 - Finding all employees
+2021-03-12 14:59:09 INFO  Connection:33 - Finding All Employees...
+2021-03-12 14:59:10 INFO  Connection:50 - connection successful
+2021-03-12 14:59:10 INFO  Connection:62 - Connected to DB
+2021-03-12 14:59:10 INFO  Connection:39 - Finding all users
+2021-03-12 14:59:10 INFO  Connection:33 - Finding All Employees...
+2021-03-12 14:59:10 INFO  Connection:50 - connection successful
+2021-03-12 14:59:10 INFO  Connection:62 - Connected to DB
+2021-03-12 14:59:10 INFO  Connection:43 - Finding Wade
+2021-03-12 14:59:50 INFO  Connection:33 - Finding All Employees...
+2021-03-12 14:59:51 INFO  Connection:50 - connection successful
+2021-03-12 14:59:51 INFO  Connection:62 - Connected to DB
+2021-03-12 15:00:45 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:00:46 INFO  Connection:50 - connection successful
+2021-03-12 15:00:46 INFO  Connection:62 - Connected to DB
+2021-03-12 15:00:46 INFO  Connection:39 - Finding all users
+2021-03-12 15:00:46 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:00:46 INFO  Connection:50 - connection successful
+2021-03-12 15:00:46 INFO  Connection:62 - Connected to DB
+2021-03-12 15:00:46 INFO  Connection:43 - Finding James
+2021-03-12 15:01:15 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:01:16 INFO  Connection:50 - connection successful
+2021-03-12 15:01:16 INFO  Connection:62 - Connected to DB
+2021-03-12 15:01:16 INFO  Connection:39 - Finding all users
+2021-03-12 15:01:16 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:01:16 INFO  Connection:50 - connection successful
+2021-03-12 15:01:16 INFO  Connection:62 - Connected to DB
+2021-03-12 15:01:16 INFO  Connection:43 - Finding Wade
+2021-03-12 15:03:42 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:03:42 INFO  Connection:50 - connection successful
+2021-03-12 15:03:42 INFO  Connection:62 - Connected to DB
+2021-03-12 15:09:56 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:09:57 INFO  Connection:50 - connection successful
+2021-03-12 15:09:57 INFO  Connection:62 - Connected to DB
+2021-03-12 15:10:53 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:10:54 INFO  Connection:50 - connection successful
+2021-03-12 15:10:54 INFO  Connection:62 - Connected to DB
+2021-03-12 15:15:31 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:15:32 INFO  Connection:50 - connection successful
+2021-03-12 15:15:32 INFO  Connection:62 - Connected to DB
+2021-03-12 15:15:32 INFO  Connection:50 - connection successful
+2021-03-12 15:15:32 INFO  Connection:62 - Connected to DB
+2021-03-12 15:15:32 INFO  UserDAOImpl:109 - Kenny successfully changed first name changed to: Joey
+2021-03-12 15:15:32 INFO  Connection:39 - Finding all users
+2021-03-12 15:15:32 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:15:32 INFO  Connection:50 - connection successful
+2021-03-12 15:15:32 INFO  Connection:62 - Connected to DB
+2021-03-12 15:15:32 INFO  Connection:43 - Finding Ken
+2021-03-12 15:20:25 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:20:26 INFO  Connection:50 - connection successful
+2021-03-12 15:20:26 INFO  Connection:62 - Connected to DB
+2021-03-12 15:20:46 INFO  Connection:50 - connection successful
+2021-03-12 15:20:46 INFO  Connection:62 - Connected to DB
+2021-03-12 15:28:39 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:28:40 INFO  Connection:50 - connection successful
+2021-03-12 15:28:40 INFO  Connection:62 - Connected to DB
+2021-03-12 15:28:40 INFO  Connection:50 - connection successful
+2021-03-12 15:28:40 INFO  Connection:62 - Connected to DB
+2021-03-12 15:28:40 INFO  UserDAOImpl:111 - Kenny successfully changed first name changed to: Joey
+2021-03-12 15:28:40 INFO  Connection:39 - Finding all users
+2021-03-12 15:28:40 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:28:40 INFO  Connection:50 - connection successful
+2021-03-12 15:28:40 INFO  Connection:62 - Connected to DB
+2021-03-12 15:28:40 INFO  Connection:43 - Finding Ken
+2021-03-12 15:33:22 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:33:23 INFO  Connection:50 - connection successful
+2021-03-12 15:33:23 INFO  Connection:62 - Connected to DB
+2021-03-12 15:33:24 INFO  Connection:50 - connection successful
+2021-03-12 15:33:24 INFO  Connection:62 - Connected to DB
+2021-03-12 15:33:24 WARN  UserDAOImpl:97 - Unable to update user
+2021-03-12 15:34:50 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:34:51 INFO  Connection:50 - connection successful
+2021-03-12 15:34:51 INFO  Connection:62 - Connected to DB
+2021-03-12 15:34:51 INFO  Connection:50 - connection successful
+2021-03-12 15:34:51 INFO  Connection:62 - Connected to DB
+2021-03-12 15:34:51 WARN  UserDAOImpl:97 - Unable to update user
+ERROR: syntax error at or near "$1"
+  Position: 22
+2021-03-12 15:38:16 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:38:17 INFO  Connection:50 - connection successful
+2021-03-12 15:38:17 INFO  Connection:62 - Connected to DB
+2021-03-12 15:40:21 INFO  Connection:50 - connection successful
+2021-03-12 15:40:21 INFO  Connection:62 - Connected to DB
+2021-03-12 15:41:16 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:41:17 INFO  Connection:50 - connection successful
+2021-03-12 15:41:17 INFO  Connection:62 - Connected to DB
+2021-03-12 15:41:27 INFO  Connection:50 - connection successful
+2021-03-12 15:41:27 INFO  Connection:62 - Connected to DB
+2021-03-12 15:42:56 WARN  UserDAOImpl:98 - Unable to update user
+ERROR: syntax error at or near "$1"
+  Position: 22
+2021-03-12 15:49:47 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:49:48 INFO  Connection:50 - connection successful
+2021-03-12 15:49:48 INFO  Connection:62 - Connected to DB
+2021-03-12 15:49:58 INFO  Connection:50 - connection successful
+2021-03-12 15:49:58 INFO  Connection:62 - Connected to DB
+2021-03-12 15:51:25 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:51:25 INFO  Connection:50 - connection successful
+2021-03-12 15:51:25 INFO  Connection:62 - Connected to DB
+2021-03-12 15:57:36 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:57:37 INFO  Connection:50 - connection successful
+2021-03-12 15:57:37 INFO  Connection:62 - Connected to DB
+2021-03-12 15:58:43 INFO  Connection:50 - connection successful
+2021-03-12 15:58:43 INFO  Connection:62 - Connected to DB
+2021-03-12 15:59:35 WARN  UserDAOImpl:102 - Unable to update user
+ERROR: syntax error at or near "$1"
+  Position: 22
+2021-03-12 15:59:53 INFO  Connection:33 - Finding All Employees...
+2021-03-12 15:59:54 INFO  Connection:50 - connection successful
+2021-03-12 15:59:54 INFO  Connection:62 - Connected to DB
+2021-03-12 16:00:12 INFO  Connection:50 - connection successful
+2021-03-12 16:00:12 INFO  Connection:62 - Connected to DB
+2021-03-12 16:01:24 INFO  Connection:33 - Finding All Employees...
+2021-03-12 16:01:25 INFO  Connection:50 - connection successful
+2021-03-12 16:01:25 INFO  Connection:62 - Connected to DB
+2021-03-12 16:01:26 INFO  Connection:50 - connection successful
+2021-03-12 16:01:26 INFO  Connection:62 - Connected to DB
+2021-03-12 16:15:48 INFO  Connection:33 - Finding All Employees...
+2021-03-12 16:15:49 INFO  Connection:50 - connection successful
+2021-03-12 16:15:49 INFO  Connection:62 - Connected to DB
+2021-03-12 16:15:49 INFO  Connection:50 - connection successful
+2021-03-12 16:15:49 INFO  Connection:62 - Connected to DB
+2021-03-12 16:15:49 INFO  UserDAOImpl:110 - Kenny successfully changed password changed to: Joey
+2021-03-12 16:15:49 INFO  Connection:39 - Finding all users
+2021-03-12 16:15:49 INFO  Connection:33 - Finding All Employees...
+2021-03-12 16:15:50 INFO  Connection:50 - connection successful
+2021-03-12 16:15:50 INFO  Connection:62 - Connected to DB
+2021-03-12 16:15:50 INFO  Connection:43 - Finding Ken
+2021-03-13 04:20:36 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:20:37 INFO  Connection:50 - connection successful
+2021-03-13 04:20:37 INFO  Connection:62 - Connected to DB
+2021-03-13 04:22:54 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:22:55 INFO  Connection:50 - connection successful
+2021-03-13 04:22:55 INFO  Connection:62 - Connected to DB
+2021-03-13 04:25:20 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:25:21 INFO  Connection:50 - connection successful
+2021-03-13 04:25:21 INFO  Connection:62 - Connected to DB
+2021-03-13 04:25:22 INFO  Connection:50 - connection successful
+2021-03-13 04:25:22 INFO  Connection:62 - Connected to DB
+2021-03-13 04:32:47 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:32:48 INFO  Connection:50 - connection successful
+2021-03-13 04:32:48 INFO  Connection:62 - Connected to DB
+2021-03-13 04:32:48 INFO  Connection:50 - connection successful
+2021-03-13 04:32:48 INFO  Connection:62 - Connected to DB
+2021-03-13 04:33:32 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:33:33 INFO  Connection:50 - connection successful
+2021-03-13 04:33:33 INFO  Connection:62 - Connected to DB
+2021-03-13 04:33:34 INFO  Connection:50 - connection successful
+2021-03-13 04:33:34 INFO  Connection:62 - Connected to DB
+2021-03-13 04:33:34 WARN  ReimbursementDaoImpl:62 - Unable to submit request
+2021-03-13 04:35:19 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:35:20 INFO  Connection:50 - connection successful
+2021-03-13 04:35:20 INFO  Connection:62 - Connected to DB
+2021-03-13 04:35:20 INFO  Connection:50 - connection successful
+2021-03-13 04:35:20 INFO  Connection:62 - Connected to DB
+2021-03-13 04:35:20 WARN  ReimbursementDaoImpl:62 - Unable to submit request
+Can't infer the SQL type to use for an instance of java.util.Date. Use setObject() with an explicit Types value to specify the type to use.
+2021-03-13 04:45:21 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:45:22 INFO  Connection:50 - connection successful
+2021-03-13 04:45:22 INFO  Connection:62 - Connected to DB
+2021-03-13 04:45:22 INFO  Connection:50 - connection successful
+2021-03-13 04:45:22 INFO  Connection:62 - Connected to DB
+2021-03-13 04:45:22 WARN  ReimbursementDaoImpl:62 - Unable to submit request
+ERROR: insert or update on table "reimbursment_info" violates foreign key constraint "employee_reimbursement_id"
+  Detail: Key (id)=(1) is not present in table "employee".
+2021-03-13 04:49:39 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:49:40 INFO  Connection:50 - connection successful
+2021-03-13 04:49:40 INFO  Connection:62 - Connected to DB
+2021-03-13 04:49:40 INFO  Connection:50 - connection successful
+2021-03-13 04:49:40 INFO  Connection:62 - Connected to DB
+2021-03-13 04:49:40 INFO  Connection:50 - connection successful
+2021-03-13 04:49:40 INFO  Connection:62 - Connected to DB
+2021-03-13 04:49:40 WARN  ReimbursementDaoImpl:62 - Unable to submit request
+ERROR: insert or update on table "reimbursment_info" violates foreign key constraint "employee_reimbursement_id"
+  Detail: Key (id)=(2) is not present in table "employee".
+2021-03-13 04:54:25 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:54:25 INFO  Connection:50 - connection successful
+2021-03-13 04:54:25 INFO  Connection:62 - Connected to DB
+2021-03-13 04:54:26 INFO  Connection:50 - connection successful
+2021-03-13 04:54:26 INFO  Connection:62 - Connected to DB
+2021-03-13 04:54:26 WARN  EmployeeDaoImpl:31 - Unable to add employee
+2021-03-13 04:57:56 INFO  Connection:33 - Finding All Employees...
+2021-03-13 04:57:57 INFO  Connection:50 - connection successful
+2021-03-13 04:57:57 INFO  Connection:62 - Connected to DB
+2021-03-13 04:57:57 INFO  Connection:50 - connection successful
+2021-03-13 04:57:57 INFO  Connection:62 - Connected to DB
+2021-03-13 04:57:57 WARN  EmployeeDaoImpl:31 - Unable to add employee
+ERROR: insert or update on table "employee" violates foreign key constraint "employee_id_fkey"
+  Detail: Key (id)=(3) is not present in table "user_info".
+2021-03-13 05:46:15 INFO  Connection:33 - Finding All Employees...
+2021-03-13 05:46:16 INFO  Connection:50 - connection successful
+2021-03-13 05:46:16 INFO  Connection:62 - Connected to DB
+2021-03-13 05:46:16 INFO  Connection:50 - connection successful
+2021-03-13 05:46:16 INFO  Connection:62 - Connected to DB
+2021-03-13 05:46:16 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 05:46:16 INFO  Connection:50 - connection successful
+2021-03-13 05:46:16 INFO  Connection:62 - Connected to DB
+2021-03-13 05:46:17 WARN  EmployeeDaoImpl:32 - Unable to add employee
+ERROR: insert or update on table "employee" violates foreign key constraint "reimbursement_info_employee_id"
+  Detail: Key (reimbursement_id)=(0) is not present in table "reimbursment_info".
+2021-03-13 05:47:25 INFO  Connection:33 - Finding All Employees...
+2021-03-13 05:47:26 INFO  Connection:50 - connection successful
+2021-03-13 05:47:26 INFO  Connection:62 - Connected to DB
+2021-03-13 06:01:18 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:01:19 INFO  Connection:50 - connection successful
+2021-03-13 06:01:19 INFO  Connection:62 - Connected to DB
+2021-03-13 06:01:49 INFO  Connection:50 - connection successful
+2021-03-13 06:01:49 INFO  Connection:62 - Connected to DB
+2021-03-13 06:01:49 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:02:02 INFO  Connection:50 - connection successful
+2021-03-13 06:02:02 INFO  Connection:62 - Connected to DB
+2021-03-13 06:03:29 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:03:30 INFO  Connection:50 - connection successful
+2021-03-13 06:03:30 INFO  Connection:62 - Connected to DB
+2021-03-13 06:03:53 INFO  Connection:50 - connection successful
+2021-03-13 06:03:53 INFO  Connection:62 - Connected to DB
+2021-03-13 06:03:53 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:04:02 INFO  Connection:50 - connection successful
+2021-03-13 06:04:02 INFO  Connection:62 - Connected to DB
+2021-03-13 06:08:35 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:08:36 INFO  Connection:50 - connection successful
+2021-03-13 06:08:36 INFO  Connection:62 - Connected to DB
+2021-03-13 06:09:59 INFO  Connection:50 - connection successful
+2021-03-13 06:09:59 INFO  Connection:62 - Connected to DB
+2021-03-13 06:09:59 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:10:12 INFO  Connection:50 - connection successful
+2021-03-13 06:10:12 INFO  Connection:62 - Connected to DB
+2021-03-13 06:13:58 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:13:59 INFO  Connection:50 - connection successful
+2021-03-13 06:13:59 INFO  Connection:62 - Connected to DB
+2021-03-13 06:14:25 INFO  Connection:50 - connection successful
+2021-03-13 06:14:25 INFO  Connection:62 - Connected to DB
+2021-03-13 06:14:25 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:14:34 INFO  Connection:50 - connection successful
+2021-03-13 06:14:34 INFO  Connection:62 - Connected to DB
+2021-03-13 06:16:53 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:16:54 INFO  Connection:50 - connection successful
+2021-03-13 06:16:54 INFO  Connection:62 - Connected to DB
+2021-03-13 06:17:12 INFO  Connection:50 - connection successful
+2021-03-13 06:17:12 INFO  Connection:62 - Connected to DB
+2021-03-13 06:17:12 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:17:21 INFO  Connection:50 - connection successful
+2021-03-13 06:17:21 INFO  Connection:62 - Connected to DB
+2021-03-13 06:20:14 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:20:15 INFO  Connection:50 - connection successful
+2021-03-13 06:20:15 INFO  Connection:62 - Connected to DB
+2021-03-13 06:20:29 INFO  Connection:50 - connection successful
+2021-03-13 06:20:29 INFO  Connection:62 - Connected to DB
+2021-03-13 06:20:29 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:20:37 INFO  Connection:50 - connection successful
+2021-03-13 06:20:37 INFO  Connection:62 - Connected to DB
+2021-03-13 06:38:39 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:38:40 INFO  Connection:50 - connection successful
+2021-03-13 06:38:40 INFO  Connection:62 - Connected to DB
+2021-03-13 06:38:58 INFO  Connection:50 - connection successful
+2021-03-13 06:38:58 INFO  Connection:62 - Connected to DB
+2021-03-13 06:38:58 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:39:08 INFO  Connection:50 - connection successful
+2021-03-13 06:39:08 INFO  Connection:62 - Connected to DB
+2021-03-13 06:42:45 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:42:46 INFO  Connection:50 - connection successful
+2021-03-13 06:42:46 INFO  Connection:62 - Connected to DB
+2021-03-13 06:42:59 INFO  Connection:50 - connection successful
+2021-03-13 06:42:59 INFO  Connection:62 - Connected to DB
+2021-03-13 06:42:59 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:43:07 INFO  Connection:50 - connection successful
+2021-03-13 06:43:07 INFO  Connection:62 - Connected to DB
+2021-03-13 06:45:08 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:45:09 INFO  Connection:50 - connection successful
+2021-03-13 06:45:09 INFO  Connection:62 - Connected to DB
+2021-03-13 06:45:26 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:45:27 INFO  Connection:50 - connection successful
+2021-03-13 06:45:27 INFO  Connection:62 - Connected to DB
+2021-03-13 06:45:27 INFO  Connection:50 - connection successful
+2021-03-13 06:45:27 INFO  Connection:62 - Connected to DB
+2021-03-13 06:45:27 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 06:45:28 INFO  Connection:50 - connection successful
+2021-03-13 06:45:28 INFO  Connection:62 - Connected to DB
+2021-03-13 06:46:41 INFO  Connection:50 - connection successful
+2021-03-13 06:46:41 INFO  Connection:62 - Connected to DB
+2021-03-13 06:56:10 INFO  Connection:89 - Finding all Users
+2021-03-13 06:56:10 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:56:11 INFO  Connection:50 - connection successful
+2021-03-13 06:56:11 INFO  Connection:62 - Connected to DB
+2021-03-13 06:56:11 INFO  Connection:96 - Finding all employees
+2021-03-13 06:57:03 INFO  Connection:33 - Finding All Employees...
+2021-03-13 06:57:04 INFO  Connection:50 - connection successful
+2021-03-13 06:57:04 INFO  Connection:62 - Connected to DB
+2021-03-13 06:57:59 INFO  Connection:50 - connection successful
+2021-03-13 06:57:59 INFO  Connection:62 - Connected to DB
+2021-03-13 06:58:49 INFO  Connection:50 - connection successful
+2021-03-13 06:58:49 INFO  Connection:62 - Connected to DB
+2021-03-13 07:11:05 INFO  Connection:50 - connection successful
+2021-03-13 07:11:05 INFO  Connection:62 - Connected to DB
+2021-03-13 07:11:06 INFO  ReimbursementDaoImpl:222 - No completed requests
+2021-03-13 07:11:54 INFO  Connection:50 - connection successful
+2021-03-13 07:11:54 INFO  Connection:62 - Connected to DB
+2021-03-13 07:12:29 INFO  Connection:50 - connection successful
+2021-03-13 07:12:29 INFO  Connection:62 - Connected to DB
+2021-03-13 07:16:01 INFO  Connection:50 - connection successful
+2021-03-13 07:16:01 INFO  Connection:62 - Connected to DB
+2021-03-13 07:16:24 INFO  Connection:50 - connection successful
+2021-03-13 07:16:24 INFO  Connection:62 - Connected to DB
+2021-03-13 07:16:24 INFO  ReimbursementDaoImpl:152 - No users found with name Ashli
+2021-03-13 07:29:36 INFO  Connection:50 - connection successful
+2021-03-13 07:29:36 INFO  Connection:62 - Connected to DB
+2021-03-13 07:29:36 INFO  Connection:50 - connection successful
+2021-03-13 07:29:36 INFO  Connection:62 - Connected to DB
+2021-03-13 07:29:36 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: syntax error at or near "="
+  Position: 108
+2021-03-13 07:29:36 INFO  Connection:50 - connection successful
+2021-03-13 07:29:36 INFO  Connection:62 - Connected to DB
+2021-03-13 07:29:36 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: syntax error at or near "="
+  Position: 108
+2021-03-13 07:29:37 INFO  Connection:50 - connection successful
+2021-03-13 07:29:37 INFO  Connection:62 - Connected to DB
+2021-03-13 07:29:37 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: syntax error at or near "="
+  Position: 108
+2021-03-13 07:29:37 INFO  Connection:50 - connection successful
+2021-03-13 07:29:37 INFO  Connection:62 - Connected to DB
+2021-03-13 07:29:37 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: syntax error at or near "="
+  Position: 108
+2021-03-13 07:29:37 INFO  Connection:50 - connection successful
+2021-03-13 07:29:37 INFO  Connection:62 - Connected to DB
+2021-03-13 07:29:37 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: syntax error at or near "="
+  Position: 108
+2021-03-13 07:32:41 INFO  Connection:50 - connection successful
+2021-03-13 07:32:41 INFO  Connection:62 - Connected to DB
+2021-03-13 07:33:40 INFO  Connection:50 - connection successful
+2021-03-13 07:33:40 INFO  Connection:62 - Connected to DB
+2021-03-13 07:37:21 INFO  Connection:50 - connection successful
+2021-03-13 07:37:21 INFO  Connection:62 - Connected to DB
+2021-03-13 07:37:39 INFO  Connection:50 - connection successful
+2021-03-13 07:37:39 INFO  Connection:62 - Connected to DB
+2021-03-13 07:38:01 INFO  Connection:50 - connection successful
+2021-03-13 07:38:01 INFO  Connection:62 - Connected to DB
+2021-03-13 07:39:11 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: syntax error at or near "="
+  Position: 109
+2021-03-13 07:41:10 INFO  Connection:50 - connection successful
+2021-03-13 07:41:10 INFO  Connection:62 - Connected to DB
+2021-03-13 07:41:10 INFO  Connection:50 - connection successful
+2021-03-13 07:41:10 INFO  Connection:62 - Connected to DB
+2021-03-13 07:41:31 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: missing FROM-clause entry for table "manager"
+  Position: 79
+2021-03-13 07:56:25 INFO  Connection:50 - connection successful
+2021-03-13 07:56:25 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:25 INFO  Connection:33 - Finding All Employees...
+2021-03-13 07:56:25 INFO  Connection:50 - connection successful
+2021-03-13 07:56:25 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:26 INFO  Connection:50 - connection successful
+2021-03-13 07:56:26 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:26 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: insert or update on table "manager" violates foreign key constraint "user_info_mangager_id"
+  Detail: Key (id)=(1) is not present in table "user_info".
+2021-03-13 07:56:26 INFO  Connection:33 - Finding All Employees...
+2021-03-13 07:56:26 INFO  Connection:50 - connection successful
+2021-03-13 07:56:26 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:26 INFO  Connection:50 - connection successful
+2021-03-13 07:56:26 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:26 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: insert or update on table "manager" violates foreign key constraint "user_info_mangager_id"
+  Detail: Key (id)=(2) is not present in table "user_info".
+2021-03-13 07:56:26 INFO  Connection:33 - Finding All Employees...
+2021-03-13 07:56:27 INFO  Connection:50 - connection successful
+2021-03-13 07:56:27 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:27 INFO  Connection:50 - connection successful
+2021-03-13 07:56:27 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:27 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: insert or update on table "manager" violates foreign key constraint "user_info_mangager_id"
+  Detail: Key (id)=(3) is not present in table "user_info".
+2021-03-13 07:56:27 INFO  Connection:33 - Finding All Employees...
+2021-03-13 07:56:27 INFO  Connection:50 - connection successful
+2021-03-13 07:56:27 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:28 INFO  Connection:50 - connection successful
+2021-03-13 07:56:28 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:28 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: insert or update on table "manager" violates foreign key constraint "user_info_mangager_id"
+  Detail: Key (id)=(4) is not present in table "user_info".
+2021-03-13 07:56:28 INFO  Connection:33 - Finding All Employees...
+2021-03-13 07:56:28 INFO  Connection:50 - connection successful
+2021-03-13 07:56:28 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:28 INFO  Connection:50 - connection successful
+2021-03-13 07:56:28 INFO  Connection:62 - Connected to DB
+2021-03-13 07:56:28 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: insert or update on table "manager" violates foreign key constraint "user_info_mangager_id"
+  Detail: Key (id)=(5) is not present in table "user_info".
+2021-03-13 08:00:42 INFO  Connection:50 - connection successful
+2021-03-13 08:00:42 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:42 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:00:43 INFO  Connection:50 - connection successful
+2021-03-13 08:00:43 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:43 INFO  Connection:50 - connection successful
+2021-03-13 08:00:43 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:43 INFO  ReimbursementDaoImpl:35 - Ashli successfully added as manager
+2021-03-13 08:00:43 INFO  Connection:50 - connection successful
+2021-03-13 08:00:43 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:43 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: missing FROM-clause entry for table "manager"
+  Position: 79
+2021-03-13 08:00:43 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:00:44 INFO  Connection:50 - connection successful
+2021-03-13 08:00:44 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:44 INFO  Connection:50 - connection successful
+2021-03-13 08:00:44 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:44 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:00:44 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:00:44 INFO  Connection:50 - connection successful
+2021-03-13 08:00:44 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:45 INFO  Connection:50 - connection successful
+2021-03-13 08:00:45 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:45 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:00:45 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:00:45 INFO  Connection:50 - connection successful
+2021-03-13 08:00:45 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:45 INFO  Connection:50 - connection successful
+2021-03-13 08:00:45 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:45 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:00:45 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:00:46 INFO  Connection:50 - connection successful
+2021-03-13 08:00:46 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:46 INFO  Connection:50 - connection successful
+2021-03-13 08:00:46 INFO  Connection:62 - Connected to DB
+2021-03-13 08:00:46 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:18:44 INFO  Connection:50 - connection successful
+2021-03-13 08:18:44 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:44 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:18:44 INFO  Connection:50 - connection successful
+2021-03-13 08:18:44 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:45 INFO  Connection:50 - connection successful
+2021-03-13 08:18:45 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:45 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:18:45 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:18:45 INFO  Connection:50 - connection successful
+2021-03-13 08:18:45 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:45 INFO  Connection:50 - connection successful
+2021-03-13 08:18:45 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:45 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:18:45 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:18:46 INFO  Connection:50 - connection successful
+2021-03-13 08:18:46 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:46 INFO  Connection:50 - connection successful
+2021-03-13 08:18:46 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:46 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:18:46 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:18:46 INFO  Connection:50 - connection successful
+2021-03-13 08:18:46 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:47 INFO  Connection:50 - connection successful
+2021-03-13 08:18:47 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:47 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:18:47 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:18:47 INFO  Connection:50 - connection successful
+2021-03-13 08:18:47 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:48 INFO  Connection:50 - connection successful
+2021-03-13 08:18:48 INFO  Connection:62 - Connected to DB
+2021-03-13 08:18:48 WARN  ReimbursementDaoImpl:32 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 08:22:17 INFO  Connection:50 - connection successful
+2021-03-13 08:22:17 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:17 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:22:18 INFO  Connection:50 - connection successful
+2021-03-13 08:22:18 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:18 INFO  Connection:50 - connection successful
+2021-03-13 08:22:18 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:18 INFO  ReimbursementDaoImpl:93 - Reimbursement successfully changed
+2021-03-13 08:22:18 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:22:18 INFO  Connection:50 - connection successful
+2021-03-13 08:22:18 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:19 INFO  Connection:50 - connection successful
+2021-03-13 08:22:19 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:19 INFO  ReimbursementDaoImpl:93 - Reimbursement successfully changed
+2021-03-13 08:22:19 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:22:19 INFO  Connection:50 - connection successful
+2021-03-13 08:22:19 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:19 INFO  Connection:50 - connection successful
+2021-03-13 08:22:19 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:19 INFO  ReimbursementDaoImpl:93 - Reimbursement successfully changed
+2021-03-13 08:22:19 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:22:20 INFO  Connection:50 - connection successful
+2021-03-13 08:22:20 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:20 INFO  Connection:50 - connection successful
+2021-03-13 08:22:20 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:20 INFO  ReimbursementDaoImpl:93 - Reimbursement successfully changed
+2021-03-13 08:22:20 INFO  Connection:33 - Finding All Employees...
+2021-03-13 08:22:20 INFO  Connection:50 - connection successful
+2021-03-13 08:22:20 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:21 INFO  Connection:50 - connection successful
+2021-03-13 08:22:21 INFO  Connection:62 - Connected to DB
+2021-03-13 08:22:21 INFO  ReimbursementDaoImpl:93 - Reimbursement successfully changed
+2021-03-13 11:23:24 INFO  Connection:33 - Finding All Employees...
+2021-03-13 11:23:25 INFO  Connection:50 - connection successful
+2021-03-13 11:23:25 INFO  Connection:62 - Connected to DB
+2021-03-13 11:23:25 INFO  Connection:50 - connection successful
+2021-03-13 11:23:25 INFO  Connection:62 - Connected to DB
+2021-03-13 11:23:25 INFO  EmployeeDaoImpl:74 - Employee Found
+2021-03-13 11:23:59 INFO  Connection:33 - Finding All Employees...
+2021-03-13 11:24:00 INFO  Connection:50 - connection successful
+2021-03-13 11:24:00 INFO  Connection:62 - Connected to DB
+2021-03-13 11:24:01 INFO  Connection:50 - connection successful
+2021-03-13 11:24:01 INFO  Connection:62 - Connected to DB
+2021-03-13 11:24:01 INFO  EmployeeDaoImpl:82 - No Employee Found
+2021-03-13 11:56:10 INFO  Connection:33 - Finding All Employees...
+2021-03-13 11:56:11 INFO  Connection:50 - connection successful
+2021-03-13 11:56:11 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:11 INFO  Connection:50 - connection successful
+2021-03-13 11:56:11 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:11 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 11:56:12 INFO  Connection:50 - connection successful
+2021-03-13 11:56:12 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:12 INFO  Connection:50 - connection successful
+2021-03-13 11:56:12 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:12 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:12 INFO  Connection:50 - connection successful
+2021-03-13 11:56:12 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:12 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:12 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:13 INFO  Connection:50 - connection successful
+2021-03-13 11:56:13 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:13 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:13 INFO  Connection:50 - connection successful
+2021-03-13 11:56:13 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:13 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:13 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:13 INFO  Connection:50 - connection successful
+2021-03-13 11:56:13 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:13 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:14 INFO  Connection:50 - connection successful
+2021-03-13 11:56:14 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:14 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:14 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:14 INFO  Connection:50 - connection successful
+2021-03-13 11:56:14 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:14 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:15 INFO  Connection:50 - connection successful
+2021-03-13 11:56:15 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:15 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:15 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:15 INFO  Connection:50 - connection successful
+2021-03-13 11:56:15 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:15 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:15 INFO  Connection:50 - connection successful
+2021-03-13 11:56:15 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:15 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:15 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:16 INFO  Connection:50 - connection successful
+2021-03-13 11:56:16 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:16 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:16 INFO  Connection:50 - connection successful
+2021-03-13 11:56:16 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:16 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:16 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:16 INFO  Connection:50 - connection successful
+2021-03-13 11:56:16 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:16 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:17 INFO  Connection:50 - connection successful
+2021-03-13 11:56:17 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:17 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:17 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:17 INFO  Connection:50 - connection successful
+2021-03-13 11:56:17 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:17 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:17 INFO  Connection:50 - connection successful
+2021-03-13 11:56:17 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:17 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:17 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:18 INFO  Connection:50 - connection successful
+2021-03-13 11:56:18 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:18 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:18 INFO  Connection:50 - connection successful
+2021-03-13 11:56:18 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:18 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:18 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:18 INFO  Connection:50 - connection successful
+2021-03-13 11:56:18 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:18 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:19 INFO  Connection:50 - connection successful
+2021-03-13 11:56:19 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:19 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:19 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 11:56:19 INFO  Connection:50 - connection successful
+2021-03-13 11:56:19 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:19 INFO  EmployeeDaoImpl:86 - Employee Found
+2021-03-13 11:56:19 INFO  Connection:50 - connection successful
+2021-03-13 11:56:19 INFO  Connection:62 - Connected to DB
+2021-03-13 11:56:19 WARN  EmployeeDaoImpl:65 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 53
+2021-03-13 11:56:19 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:05 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:01:06 INFO  Connection:50 - connection successful
+2021-03-13 12:01:06 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:07 INFO  Connection:50 - connection successful
+2021-03-13 12:01:07 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:07 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 12:01:07 INFO  Connection:50 - connection successful
+2021-03-13 12:01:07 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:07 INFO  Connection:50 - connection successful
+2021-03-13 12:01:07 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:07 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:08 INFO  Connection:50 - connection successful
+2021-03-13 12:01:08 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:08 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:08 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:08 INFO  Connection:50 - connection successful
+2021-03-13 12:01:08 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:08 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:08 INFO  Connection:50 - connection successful
+2021-03-13 12:01:08 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:08 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:08 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:09 INFO  Connection:50 - connection successful
+2021-03-13 12:01:09 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:09 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:09 INFO  Connection:50 - connection successful
+2021-03-13 12:01:09 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:09 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:09 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:09 INFO  Connection:50 - connection successful
+2021-03-13 12:01:09 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:09 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:10 INFO  Connection:50 - connection successful
+2021-03-13 12:01:10 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:10 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:10 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:10 INFO  Connection:50 - connection successful
+2021-03-13 12:01:10 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:10 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:11 INFO  Connection:50 - connection successful
+2021-03-13 12:01:11 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:11 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:11 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:11 INFO  Connection:50 - connection successful
+2021-03-13 12:01:11 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:11 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:11 INFO  Connection:50 - connection successful
+2021-03-13 12:01:11 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:11 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:11 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:12 INFO  Connection:50 - connection successful
+2021-03-13 12:01:12 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:12 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:12 INFO  Connection:50 - connection successful
+2021-03-13 12:01:12 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:12 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:12 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:12 INFO  Connection:50 - connection successful
+2021-03-13 12:01:12 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:12 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:13 INFO  Connection:50 - connection successful
+2021-03-13 12:01:13 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:13 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:13 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:13 INFO  Connection:50 - connection successful
+2021-03-13 12:01:13 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:13 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:13 INFO  Connection:50 - connection successful
+2021-03-13 12:01:13 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:13 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:14 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:14 INFO  Connection:50 - connection successful
+2021-03-13 12:01:14 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:14 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:14 INFO  Connection:50 - connection successful
+2021-03-13 12:01:14 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:14 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:14 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:15 INFO  Connection:50 - connection successful
+2021-03-13 12:01:15 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:15 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:15 INFO  Connection:50 - connection successful
+2021-03-13 12:01:15 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:15 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:15 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:01:15 INFO  Connection:50 - connection successful
+2021-03-13 12:01:15 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:15 INFO  EmployeeDaoImpl:87 - Employee Found
+2021-03-13 12:01:16 INFO  Connection:50 - connection successful
+2021-03-13 12:01:16 INFO  Connection:62 - Connected to DB
+2021-03-13 12:01:16 WARN  EmployeeDaoImpl:66 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:01:16 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:41 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:05:42 INFO  Connection:50 - connection successful
+2021-03-13 12:05:42 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:42 INFO  Connection:50 - connection successful
+2021-03-13 12:05:42 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:42 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 12:05:43 INFO  Connection:50 - connection successful
+2021-03-13 12:05:43 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:43 INFO  Connection:50 - connection successful
+2021-03-13 12:05:43 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:43 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:43 INFO  Connection:50 - connection successful
+2021-03-13 12:05:43 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:43 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:43 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:44 INFO  Connection:50 - connection successful
+2021-03-13 12:05:44 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:44 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:44 INFO  Connection:50 - connection successful
+2021-03-13 12:05:44 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:44 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:44 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:45 INFO  Connection:50 - connection successful
+2021-03-13 12:05:45 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:45 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:45 INFO  Connection:50 - connection successful
+2021-03-13 12:05:45 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:45 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:45 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:45 INFO  Connection:50 - connection successful
+2021-03-13 12:05:45 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:45 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:46 INFO  Connection:50 - connection successful
+2021-03-13 12:05:46 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:46 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:46 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:46 INFO  Connection:50 - connection successful
+2021-03-13 12:05:46 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:46 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:46 INFO  Connection:50 - connection successful
+2021-03-13 12:05:46 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:46 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:46 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:47 INFO  Connection:50 - connection successful
+2021-03-13 12:05:47 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:47 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:47 INFO  Connection:50 - connection successful
+2021-03-13 12:05:47 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:47 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:47 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:47 INFO  Connection:50 - connection successful
+2021-03-13 12:05:47 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:47 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:48 INFO  Connection:50 - connection successful
+2021-03-13 12:05:48 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:48 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:48 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:48 INFO  Connection:50 - connection successful
+2021-03-13 12:05:48 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:48 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:48 INFO  Connection:50 - connection successful
+2021-03-13 12:05:48 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:48 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:48 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:49 INFO  Connection:50 - connection successful
+2021-03-13 12:05:49 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:49 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:49 INFO  Connection:50 - connection successful
+2021-03-13 12:05:49 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:49 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:49 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:49 INFO  Connection:50 - connection successful
+2021-03-13 12:05:49 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:49 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:50 INFO  Connection:50 - connection successful
+2021-03-13 12:05:50 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:50 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:50 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:50 INFO  Connection:50 - connection successful
+2021-03-13 12:05:50 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:50 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:50 INFO  Connection:50 - connection successful
+2021-03-13 12:05:50 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:50 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:50 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:51 INFO  Connection:50 - connection successful
+2021-03-13 12:05:51 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:51 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:51 INFO  Connection:50 - connection successful
+2021-03-13 12:05:51 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:51 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:51 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:05:51 INFO  Connection:50 - connection successful
+2021-03-13 12:05:51 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:51 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:05:52 INFO  Connection:50 - connection successful
+2021-03-13 12:05:52 INFO  Connection:62 - Connected to DB
+2021-03-13 12:05:52 WARN  EmployeeDaoImpl:67 - Unable to add employee
+ERROR: syntax error at or near "WHERE"
+  Position: 60
+2021-03-13 12:05:52 WARN  EmployeeDaoImpl:47 - Could not add employee
+2021-03-13 12:06:10 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:06:11 INFO  Connection:50 - connection successful
+2021-03-13 12:06:11 INFO  Connection:62 - Connected to DB
+2021-03-13 12:06:11 INFO  Connection:50 - connection successful
+2021-03-13 12:06:11 INFO  Connection:62 - Connected to DB
+2021-03-13 12:06:11 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 12:06:12 INFO  Connection:50 - connection successful
+2021-03-13 12:06:12 INFO  Connection:62 - Connected to DB
+2021-03-13 12:06:12 INFO  Connection:50 - connection successful
+2021-03-13 12:06:12 INFO  Connection:62 - Connected to DB
+2021-03-13 12:06:12 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:06:23 INFO  Connection:50 - connection successful
+2021-03-13 12:06:23 INFO  Connection:62 - Connected to DB
+2021-03-13 12:08:26 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:08:27 INFO  Connection:50 - connection successful
+2021-03-13 12:08:27 INFO  Connection:62 - Connected to DB
+2021-03-13 12:08:28 INFO  Connection:50 - connection successful
+2021-03-13 12:08:28 INFO  Connection:62 - Connected to DB
+2021-03-13 12:08:28 INFO  ReimbursementDaoImpl:67 - Request sent for approval
+2021-03-13 12:08:28 INFO  Connection:50 - connection successful
+2021-03-13 12:08:28 INFO  Connection:62 - Connected to DB
+2021-03-13 12:08:28 INFO  Connection:50 - connection successful
+2021-03-13 12:08:28 INFO  Connection:62 - Connected to DB
+2021-03-13 12:08:28 INFO  EmployeeDaoImpl:88 - Employee Found
+2021-03-13 12:08:29 INFO  Connection:50 - connection successful
+2021-03-13 12:08:29 INFO  Connection:62 - Connected to DB
+2021-03-13 12:44:35 INFO  Connection:50 - connection successful
+2021-03-13 12:44:35 INFO  Connection:62 - Connected to DB
+2021-03-13 12:44:36 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:44:36 INFO  Connection:50 - connection successful
+2021-03-13 12:44:36 INFO  Connection:62 - Connected to DB
+2021-03-13 12:48:59 INFO  Connection:50 - connection successful
+2021-03-13 12:48:59 INFO  Connection:62 - Connected to DB
+2021-03-13 12:50:16 INFO  Connection:50 - connection successful
+2021-03-13 12:50:16 INFO  Connection:62 - Connected to DB
+2021-03-13 12:50:46 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:50:54 INFO  Connection:50 - connection successful
+2021-03-13 12:50:54 INFO  Connection:62 - Connected to DB
+2021-03-13 12:52:50 INFO  Connection:50 - connection successful
+2021-03-13 12:52:50 INFO  Connection:62 - Connected to DB
+2021-03-13 12:54:59 INFO  Connection:50 - connection successful
+2021-03-13 12:54:59 INFO  Connection:62 - Connected to DB
+2021-03-13 12:55:12 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:55:19 INFO  Connection:50 - connection successful
+2021-03-13 12:55:19 INFO  Connection:62 - Connected to DB
+2021-03-13 12:55:39 INFO  Connection:50 - connection successful
+2021-03-13 12:55:39 INFO  Connection:62 - Connected to DB
+2021-03-13 12:55:40 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:22 INFO  Connection:50 - connection successful
+2021-03-13 12:58:22 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:22 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:22 INFO  Connection:50 - connection successful
+2021-03-13 12:58:22 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:22 INFO  Connection:50 - connection successful
+2021-03-13 12:58:22 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:22 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:22 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:23 INFO  Connection:50 - connection successful
+2021-03-13 12:58:23 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:23 INFO  Connection:50 - connection successful
+2021-03-13 12:58:23 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:23 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:23 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:23 INFO  Connection:50 - connection successful
+2021-03-13 12:58:23 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:24 INFO  Connection:50 - connection successful
+2021-03-13 12:58:24 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:24 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:24 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:24 INFO  Connection:50 - connection successful
+2021-03-13 12:58:24 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:24 INFO  Connection:50 - connection successful
+2021-03-13 12:58:24 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:24 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:24 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:25 INFO  Connection:50 - connection successful
+2021-03-13 12:58:25 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:25 INFO  Connection:50 - connection successful
+2021-03-13 12:58:25 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:25 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:25 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:25 INFO  Connection:50 - connection successful
+2021-03-13 12:58:25 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:26 INFO  Connection:50 - connection successful
+2021-03-13 12:58:26 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:26 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:26 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:26 INFO  Connection:50 - connection successful
+2021-03-13 12:58:26 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:26 INFO  Connection:50 - connection successful
+2021-03-13 12:58:26 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:27 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 12:58:27 INFO  Connection:33 - Finding All Employees...
+2021-03-13 12:58:27 INFO  Connection:50 - connection successful
+2021-03-13 12:58:27 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:27 INFO  Connection:50 - connection successful
+2021-03-13 12:58:27 INFO  Connection:62 - Connected to DB
+2021-03-13 12:58:27 WARN  ReimbursementDaoImpl:31 - Unable to insert manager
+ERROR: duplicate key value violates unique constraint "manager_pkey"
+  Detail: Key (id)=(20) already exists.
+2021-03-13 13:00:25 INFO  Connection:50 - connection successful
+2021-03-13 13:00:25 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:26 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:26 INFO  Connection:50 - connection successful
+2021-03-13 13:00:26 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:26 INFO  Connection:50 - connection successful
+2021-03-13 13:00:26 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:26 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:27 INFO  Connection:50 - connection successful
+2021-03-13 13:00:27 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:27 INFO  ReimbursementDaoImpl:93 - Reimbursement successfully changed
+2021-03-13 13:00:27 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:27 INFO  Connection:50 - connection successful
+2021-03-13 13:00:27 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:27 INFO  Connection:50 - connection successful
+2021-03-13 13:00:27 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:27 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:28 INFO  Connection:50 - connection successful
+2021-03-13 13:00:28 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:28 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: more than one row returned by a subquery used as an expression
+2021-03-13 13:00:28 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:28 INFO  Connection:50 - connection successful
+2021-03-13 13:00:28 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:28 INFO  Connection:50 - connection successful
+2021-03-13 13:00:28 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:28 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:29 INFO  Connection:50 - connection successful
+2021-03-13 13:00:29 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:29 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: more than one row returned by a subquery used as an expression
+2021-03-13 13:00:29 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:29 INFO  Connection:50 - connection successful
+2021-03-13 13:00:29 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:29 INFO  Connection:50 - connection successful
+2021-03-13 13:00:29 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:29 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:30 INFO  Connection:50 - connection successful
+2021-03-13 13:00:30 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:30 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: more than one row returned by a subquery used as an expression
+2021-03-13 13:00:30 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:30 INFO  Connection:50 - connection successful
+2021-03-13 13:00:30 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:30 INFO  Connection:50 - connection successful
+2021-03-13 13:00:30 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:30 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:31 INFO  Connection:50 - connection successful
+2021-03-13 13:00:31 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:31 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: more than one row returned by a subquery used as an expression
+2021-03-13 13:00:31 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:31 INFO  Connection:50 - connection successful
+2021-03-13 13:00:31 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:31 INFO  Connection:50 - connection successful
+2021-03-13 13:00:31 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:31 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:32 INFO  Connection:50 - connection successful
+2021-03-13 13:00:32 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:32 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: more than one row returned by a subquery used as an expression
+2021-03-13 13:00:32 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:32 INFO  Connection:50 - connection successful
+2021-03-13 13:00:32 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:32 INFO  Connection:50 - connection successful
+2021-03-13 13:00:32 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:32 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:33 INFO  Connection:50 - connection successful
+2021-03-13 13:00:33 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:33 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: more than one row returned by a subquery used as an expression
+2021-03-13 13:00:33 INFO  Connection:33 - Finding All Employees...
+2021-03-13 13:00:33 INFO  Connection:50 - connection successful
+2021-03-13 13:00:33 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:33 INFO  Connection:50 - connection successful
+2021-03-13 13:00:33 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:33 INFO  ReimbursementDaoImpl:34 - Ashli successfully added as manager
+2021-03-13 13:00:34 INFO  Connection:50 - connection successful
+2021-03-13 13:00:34 INFO  Connection:62 - Connected to DB
+2021-03-13 13:00:34 WARN  ReimbursementDaoImpl:90 - Unable to update reimbursment
+ERROR: more than one row returned by a subquery used as an expression

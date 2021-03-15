@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>Reimbursement</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>FrontController</servlet-name>
+    <servlet-class>com.revature.web.FrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/login</url-pattern>
+    <url-pattern>/logout</url-pattern>
+    <url-pattern>/processRequest</url-pattern>
+    <url-pattern>/viewMyRequests</url-pattern>
+    <url-pattern>/viewMyInformation</url-pattern>
+    <url-pattern>/updateRequest</url-pattern>
+    <url-pattern>/viewPending</url-pattern>
+    <url-pattern>/viewResolved</url-pattern>
+    <url-pattern>/viewAllRequests</url-pattern>
+    <url-pattern>/findEmployeeRequest</url-pattern>
+    <url-pattern>/findAllEmployees</url-pattern>
+    
+    <url-pattern>/employee</url-pattern>
+    <url-pattern>/manager</url-pattern>
+    <url-pattern>/error</url-pattern>
+  </servlet-mapping>
+  
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/error</location>
+  </error-page>
+</web-app>

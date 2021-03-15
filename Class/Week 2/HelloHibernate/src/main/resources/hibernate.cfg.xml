@@ -39,7 +39,10 @@
 		
 		<!-- hbm2ddl.auto...this is a special property that exports schema DDL to the database when the SessionFactory is created. -->
 		<!-- CREATE, VALIDATE, UPDATE, NONE -->
-		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.hbm2ddl.auto">validate</property>
+		
+		<property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.internal.EhcacheRegionFactory</property>
+		<property name="hibernate.cache.provider_class">net.sf.ehcache.hibernate.EhCacheProvider</property>
 		
 		<!-- CREATE: will drop existing tables and objects with the names provided in annotations,
 			and then hibernate will recreate the schema for us (CREATE isn't the best for production, but good for development)

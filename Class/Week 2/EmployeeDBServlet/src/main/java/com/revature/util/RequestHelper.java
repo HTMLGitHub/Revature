@@ -15,9 +15,9 @@ import javax.servlet.http.HttpSession;
 import org.apache.log4j.Logger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.revature.models.Employee;
+import com.revature.models.User;
 import com.revature.models.LoginTemplate;
-import com.revature.services.EmployeeService;
+import com.revature.services.UserService;
 
 public class RequestHelper 
 {
@@ -26,7 +26,7 @@ public class RequestHelper
 	
 	public static void processLogin(HttpServletRequest req, HttpServletResponse response) throws IOException
 	{
-		//WE want to return whatever we receive as the reques (req) into a string to process
+		//WE want to return whatever we receive as the request (req) into a string to process
 		BufferedReader reader = req.getReader();
 		StringBuilder s = new StringBuilder();
 		
@@ -49,9 +49,9 @@ public class RequestHelper
 		
 		log.info("User attempted to log in with User Name: " + username);
 		
-		Employee e = EmployeeService.confirmLogin(username, password);
+		User u = UserService.confirmLogin(username, password);
 		
-		if(e!=null)
+		if(u!=null)
 		{
 			//get the current session, or create one if it doesn't exist
 			HttpSession session = req.getSession();
@@ -63,7 +63,7 @@ public class RequestHelper
 			
 			//this is converting our Java Object (with property firstname!) to JSON format ...
 			//that means we can grab the firstName property after we parse it
-			pw.println(om.writeValueAsString(e));
+			pw.println(om.writeValueAsString(u));
 			
 						
 			log.info(username + " has successfully logged in");
@@ -97,11 +97,20 @@ public class RequestHelper
 		
 		response.setContentType("application/json");
 		//2. GEt a list of all Employees in the DB
-		List<Employee> allEmps = EmployeeService.findAll();
+		List<User> allEmps = UserService.findUsersByPosition(1);
 		
 		//3. turn the list of java Objs into json string
 		String json = om.writeValueAsString(allEmps);
 		
+		PrintWriter pw = response.getWriter();
+		pw.println(json);
+	}
+	
+	public static void processManager(HttpServletRequest req, HttpServletResponse response) throws IOException
+	{
+		response.setContentType("application/json");
+		List<User> allManagers = UserService.findUsersByPosition(2);
+		String json = om.writeValueAsString(allManagers);
 		PrintWriter pw = response.getWriter();
 		pw.println(json);
 	}
