@@ -1,0 +1,10 @@
+<!--We use ngIf to conditionally include/exclude a block of HTLM-->
+<div *ngIf="tiger">
+    <h2>{{tiger.name | uppercase}} Details: </h2>
+    <div><span>id: </span>{{tiger.id}}</div>
+    
+    <div>
+        <label for="tiger-name">Tiger name: </label>
+        <input id="tiger-name"[(ngModel)]="tiger.name" placeholder="Tiger Name!">
+    </div>
+</div>

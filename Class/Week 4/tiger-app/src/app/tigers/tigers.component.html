@@ -1,0 +1,16 @@
+<h2>My Tigers</h2>
+<ul class = "tigers">
+    <!--NgFor is a structural directive -- meaning that it changes the tructure of the dom
+    allows us to create something simular to an enhannced loop...but structrally
+    We typically *ngFor for lists-->
+
+    <!--by adding something like [class.'some-css-class'] I am adding CSS conditionally-->
+    <li *ngFor="let tiger of tigers">
+        <a routerLink = "/detail/{{tiger.id}}"><span class="box">{{tiger.id}}</span> {{tiger.name}}</a>                
+    </li>
+</ul>
+
+<!--Here we had code that we allocated to a seperated component...-->
+<!--this is property binding-->
+<app-tiger-detail></app-tiger-detail>
+

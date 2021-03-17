@@ -1,3 +1,13 @@
+window.onload = function()
+{
+     var a = document.getElementById("logoutLink");
+
+     a.onclick = function()
+     {
+          logout();
+     }
+}
+
 function logout()
 {
      let xhr = new XMLHttpRequest();

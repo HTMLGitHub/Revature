@@ -1,0 +1,10 @@
+<!--this will only appear IF there are indeed some strigns objects in our fake cache belonging to the MessageService-->
+<div *ngIf="messageService.messages.length">
+    <h2>Messages:</h2>
+
+    <button class="clear-btn" (click)="messageService.clear();">Clear Messages</button>
+
+    <!--we are going to display each message withing the "fake cache
+        that we created in the MessagesService"-->
+    <div *ngFor="let m of messageService.messages">{{m}}</div>
+</div>

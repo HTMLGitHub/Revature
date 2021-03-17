@@ -1,0 +1,7 @@
+<h2>Top Tigers</h2>
+<div class="top-tigers">
+    <!--I will displaying each tiger-->
+    <a *ngFor="let t of topTigers" routerLink="/detail/{{t.id}}">
+        {{t.id}}: {{t.name}}
+    </a>
+</div>
