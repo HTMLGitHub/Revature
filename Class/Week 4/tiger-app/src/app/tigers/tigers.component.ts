@@ -42,16 +42,27 @@ selectedTiger?: Tiger;
     this.messageService.add("Inside TigersComponent");
     this.messageService.add(`You clicked on Tiger: ${tiger.name} with ID: ${tiger.id}`);
   }
-  //this method will retrieve all the tigers by using the Service that we've injected into this componet
-  //currently this is a sycrhrounous 
-  
-  //getAllTigers():void
-  //{
-  //  this.tigers = this.tigerService.getTigers();
- //}
 
   getAllTigers():void
   {
     this.tigerService.getTigers().subscribe(retrivedTigers=>this.tigers = retrivedTigers);
+  }
+
+  add(name:string):void
+  {
+    name=name.trim();
+
+    if(!name){return;}
+
+    this.tigerService.addTiger({name} as Tiger).subscribe(tiger=>{this.tigers.push(tiger)});
+  }
+
+  delete(tiger: Tiger): void
+  {
+    //validation logic to remove it from teh displayed list
+    this.tigers = this.tigers.filter(t => t !== tiger); //we're using filter() method to say, only the cats that 
+    //are not equal to the tiger passed through can stay
+
+    this.tigerService.deleteTiger(tiger).subscribe();
   }
 }

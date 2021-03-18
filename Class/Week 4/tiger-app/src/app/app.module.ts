@@ -12,6 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import {InMemoryDataService} from './services/in-memory-data.service';
+import { TigerSearchComponent } from './tiger-search/tiger-search.component';
 
 //The AppModel stores metadata about our entire application
 //For example, if we want to use teh 2 way property binding feature of the FormsModule,
@@ -22,7 +23,8 @@ import {InMemoryDataService} from './services/in-memory-data.service';
     TigersComponent,
     TigerDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    TigerSearchComponent
   ],
   imports: [
     BrowserModule,

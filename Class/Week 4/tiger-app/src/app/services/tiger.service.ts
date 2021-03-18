@@ -36,20 +36,6 @@ export class TigerService
         tap(_=>this.log(`fetched tigers!`)),
         catchError(this.handleError<Tiger[]>('getTigers', []))
       );
-
-    //this is th e old say before HTTP
-    /* const tigers = of(TIGERS); //what we pass to the 'of()' method is our data source.
-    //we return an observable called tigers
-
-    //lets log how many tigers we fecth (log the size of the array fetched)
-    //subscribe takes a callback ..this is the function that we appley to the data we fetch from the observable
-    tigers.subscribe(retrievedData=>
-      {
-        this.logger.log(`We returned ${retrievedData.length} tigers inside the TigerService.`);
-      });
-
-    this.messageService.add("In tiger service: tigers have been fetched...not easily!!");
-    return tigers; */
   }
 
   //get Tiger by ID!! Were tackling a TODO
@@ -66,12 +52,69 @@ export class TigerService
       catchError(this.handleError<Tiger>(`getTiger id=${id}`))
     )
   }
-  //TODO: transform this to a method that utilizes  HTTPCLIENT services
-  /* getTiger(id: number):Observable<Tiger|undefined>
+
+
+  //1. Create a save button in the html template tiger-detail component -- CHECK
+
+  //2. Create a method in the tiger-detail.ts file which calls on an update method in the tiger-service
+
+  
+
+  //3. Create an update method in hte service
+  /*PUT method to update a resource in DB*/
+  updateTiger(tiger?: Tiger):Observable<any>
   {
-    this.messageService.add(`TigerService: fetched tiger with id: ${id}`);
-    return of(TIGERS.find(tiger => tiger.id ===id));
-  } */
+    //We are updating our resource with the cat object we pass through
+    return this.http.put(this.tigerUrl, tiger)
+    .pipe
+    (
+      tap(_=>this.log(`updated tiger id=${tiger?.id}`)), //this is not totally necessary, but good for logging
+      //prossing and error handling
+      catchError(this.handleError<any>('updateTiger'))
+    );
+  }
+
+  /**POST METHOD */
+  addTiger(tiger:Tiger):Observable<any>
+  {
+    return this.http.post(this.tigerUrl, tiger)
+    .pipe
+    (
+      tap(_=>this.log(`added tiger id=${tiger.id}`)), //this is not totally necessary, but good for logging
+      //prossing and error handling
+      catchError(this.handleError<any>('addTiger'))
+    );
+  }
+
+  /**DELETE METHOD */
+  deleteTiger(tiger:Tiger | number):Observable<Tiger>
+  //were checking 'did we pass in a number (id) or a tiger?'
+  {
+    const id = (typeof tiger ==='number') ? tiger : tiger.id;
+
+    const url = `${this.tigerUrl}/${id}`;
+
+    return this.http.delete<Tiger>(url)
+    .pipe
+    (
+      tap(_=>this.log(`deleted tiger id=${id}`)), //this is not totally necessary, but good for logging
+      //prossing and error handling
+      catchError(this.handleError<any>('addTiger'))
+    );;
+  }
+
+  /*
+  SEARCH TIGERS! --> GET tigers whose name contains search terms
+  */
+
+  searchTigers(term:string):Observable<Tiger[]>
+  {
+    //if no serach term exists, we send back an empty array
+    if(!term.trim()){return of([]);}
+
+    return this.http.get<Tiger[]>(`${this.tigerUrl}/?name=${term}`);
+  }
+
 /**
  * Handle an HTTP operation that fails with a customer error handler
  * @param operation - name of the operation that fails

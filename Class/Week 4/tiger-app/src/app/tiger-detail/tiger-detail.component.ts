@@ -17,7 +17,6 @@ export class TigerDetailComponent implements OnInit
   
   //we use the '@Input' decorator to specity that this particular property
   //can be input from another source
-  //@Input() tiger?: Tiger;
   tiger?: Tiger;
   //the '?' her represents a safe navigation operator
 
@@ -43,11 +42,18 @@ export class TigerDetailComponent implements OnInit
     this.tigerService.getTiger(id).subscribe(tiger => this.tiger = tiger);
   }
 
-  
+  /**
+   * save() method which calls on an updateTiger method in the service (we will then build the updateTiger method in hte service)
+   */
+
+  save(): void
+  {
+    this.tigerService.updateTiger(this.tiger).subscribe(()=>this.goBack());
+  }
 
   goBack(): void
   {
-    this.location.back;
+    this.location.back();
   }
   
   xingGetTiger(): void
