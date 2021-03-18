@@ -34,6 +34,8 @@ function loadInformation()
         }
     }; 
     
-    request.open("GET", "http://localhost:8080/Reimbursement/viewAllResolvedRequests");
+    request.open("GET", "http://localhost:8080/Reimbursement/viewAllRequests");
     request.send();
 }
+
+document.addEventListener("DOMContentLoaded", ()=>{loadInformation();});
