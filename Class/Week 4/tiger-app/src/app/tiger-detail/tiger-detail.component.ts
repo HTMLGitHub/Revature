@@ -12,8 +12,6 @@ import {Location} from "@angular/common";
 export class TigerDetailComponent implements OnInit
 {
 
-  //we use the '@Input' decorator to specity that this particular property
-  //can be input from another source
   
   //we use the '@Input' decorator to specity that this particular property
   //can be input from another source
